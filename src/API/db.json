@@ -1,0 +1,54 @@
+{
+    "about":[
+
+    ],
+    "services":[
+
+    ],
+    "team":[
+
+    ],
+    "features":[
+
+    ],
+    "testimonials":[
+
+    ],
+    "courseDetails":[
+        {
+            "id":1,
+            "name":"Electronics and Communication Engineering",
+            "type":"Deploma",
+            "duration":"3 years",
+            "cost": "₹ 2.80 lacs"
+        },
+        {
+            "id":2,
+            "name":"Electronics and Communication Engineering",
+            "type":"B.Tech",
+            "duration":"4 years",
+            "cost": "₹ 3.90 lacs"
+        },
+        {
+            "id":3,
+            "name":"Electronics and Communication Engineering",
+            "type":"M.Tech",
+            "duration":"2 years",
+            "cost": "₹ 2.10 lacs"
+        },
+        {
+            "id":4,
+            "name":"Mechanical Engineering",
+            "type":"M.Tech",
+            "duration":"2 years",
+            "cost": "₹ 2.10 lacs"
+        }
+
+    ],
+    "instituteContact":[
+
+    ],
+    "studentContact":[
+        
+    ]
+}
