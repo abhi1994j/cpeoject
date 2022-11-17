@@ -16,10 +16,8 @@ function Navbar() {
                     <li><Link to="/cources">Cources</Link></li>
                     <li><Link to="/blog">Blog</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
-                    <li><Link to="/">Log-In</Link></li>
+                    <li><Link to="/">LogIn</Link></li>
                     <li><Link to="/">Register</Link></li>
-                    <li><Link to="/">Log-Out</Link></li>
-
                 </ul>
             </nav>
 

@@ -10,6 +10,7 @@ import Cources from './pages/cources/Cources';
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 import Navbar from './component/common/Navbar';
+import CourceApply from './pages/cources/CourceApply';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/testimonials' element={<Testimonials/>}/>
           <Route path='/services' element={<Services/>}/>
           <Route path='/cources' element={<Cources/>}/>
+          <Route path='/apply' element={<CourceApply/>}/>
           <Route path='/blog' element={<Blog/>}/>
           <Route path='/contact' element={<Contact/>}/>
         </Routes>

@@ -1,6 +1,6 @@
 import React from 'react'
-import { useEffect } from 'react';
-import { useState } from 'react';
+import { useEffect,useState } from 'react';
+import { Link } from 'react-router-dom';
 import { getApiData } from '../../AxiosMethods/AxiosMethods'
 
 const CourceDetails = () => {
@@ -15,7 +15,6 @@ const CourceDetails = () => {
         getDetailsData();
     }, [])
 
-    console.log(detailsData);
     return (
         <>
             <section id="pricing" className="pricing">
@@ -31,14 +30,13 @@ const CourceDetails = () => {
                             detailsData.map((item) => 
                                 <div className="col-lg-3 col-md-6" key={item.id}>
                                     <div className="box">
-                                        <h3>{item.name}</h3>
+                                        <h3>{item.courceName}</h3>
                                         <ul>
-                                            <li><strong>Course Type: </strong>{item.type}</li>
                                             <li><strong>Duration: </strong>{item.duration}</li>
-                                            <li><strong>Total Cost: </strong>{item.cost}</li>
+                                            <li><strong>Cource Fees: </strong>{item.cost}</li>
                                         </ul>
                                         <div className="btn-wrap">
-                                            <a href="" className="btn-buy">Apply</a>
+                                            <Link to={`/apply`} className="btn-buy">Apply</Link>
                                         </div>
                                     </div>
                                 </div>
@@ -49,7 +47,6 @@ const CourceDetails = () => {
 
                 </div>
             </section>
-
         </>
     )
 }

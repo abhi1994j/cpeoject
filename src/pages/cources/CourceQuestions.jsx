@@ -1,6 +1,20 @@
-import React from 'react'
+import React from 'react';
+import { useEffect } from 'react';
+import { useState } from 'react';
+import { getApiData } from '../../AxiosMethods/AxiosMethods';
 
 const CourceQuestions = () => {
+    const [queData, setQueData] = useState([]);
+
+    const getQueData = async () => {
+        const res = await getApiData('courseQuestions');
+        setQueData(res.data)
+    }
+
+    useEffect(() => {
+        getQueData();
+    }, [])
+
     return (
         <>
             <section id="faq" className="faq section-bg">
@@ -12,16 +26,24 @@ const CourceQuestions = () => {
 
                     <div className="faq-list">
                         <ul>
-                            <li data-aos="fade-up">
-                                <i className="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" className="collapse" href="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
-                                <div id="faq-list-1" className="collapse show" data-parent=".faq-list">
-                                    <p>
-                                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                                    </p>
-                                </div>
-                            </li>
+                            {
+                                queData.map((item) =>
+                                    <li data-aos="fade-up" key={item.id}>
+                                        <i className="bx bx-help-circle icon-help"></i>
+                                        <a data-toggle="collapse" className="collapse" href="#faq-list-1">
+                                            {item.question}
+                                            <i className="bx bx-chevron-down icon-show"></i>
+                                            <i className="bx bx-chevron-up icon-close"></i>
+                                        </a>
+                                        <div id="faq-list-1" className="collapse show" data-parent=".faq-list">
+                                            <p>{item.answer}</p>
+                                        </div>
+                                    </li>
+                                )
+                            }
 
-                            <li data-aos="fade-up" data-aos-delay="100">
+
+                            {/* <li data-aos="fade-up" data-aos-delay="100">
                                 <i className="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" className="collapsed">Feugiat scelerisque varius morbi enim nunc? <i className="bx bx-chevron-down icon-show"></i><i className="bx bx-chevron-up icon-close"></i></a>
                                 <div id="faq-list-2" className="collapse" data-parent=".faq-list">
                                     <p>
@@ -55,7 +77,7 @@ const CourceQuestions = () => {
                                         Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
                                     </p>
                                 </div>
-                            </li>
+                            </li> */}
 
                         </ul>
                     </div>

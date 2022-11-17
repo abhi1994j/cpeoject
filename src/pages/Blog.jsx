@@ -45,7 +45,7 @@ function Blog() {
                                     <div className="entry-meta">
                                         <ul>
                                             <li className="d-flex align-items-center"><i className="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
-                                            <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                                            <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a href="blog-single.html"><time dateTime="2020-01-01">Jan 1, 2020</time></a></li>
                                             <li className="d-flex align-items-center"><i className="icofont-comment"></i> <a href="blog-single.html">12 Comments</a></li>
                                         </ul>
                                     </div>
@@ -75,7 +75,7 @@ function Blog() {
                                     <div className="entry-meta">
                                         <ul>
                                             <li className="d-flex align-items-center"><i className="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
-                                            <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                                            <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a href="blog-single.html"><time dateTime="2020-01-01">Jan 1, 2020</time></a></li>
                                             <li className="d-flex align-items-center"><i className="icofont-comment"></i> <a href="blog-single.html">12 Comments</a></li>
                                         </ul>
                                     </div>
@@ -105,7 +105,7 @@ function Blog() {
                                     <div className="entry-meta">
                                         <ul>
                                             <li className="d-flex align-items-center"><i className="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
-                                            <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                                            <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a href="blog-single.html"><time dateTime="2020-01-01">Jan 1, 2020</time></a></li>
                                             <li className="d-flex align-items-center"><i className="icofont-comment"></i> <a href="blog-single.html">12 Comments</a></li>
                                         </ul>
                                     </div>
@@ -135,7 +135,7 @@ function Blog() {
                                     <div className="entry-meta">
                                         <ul>
                                             <li className="d-flex align-items-center"><i className="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
-                                            <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
+                                            <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a href="blog-single.html"><time dateTime="2020-01-01">Jan 1, 2020</time></a></li>
                                             <li className="d-flex align-items-center"><i className="icofont-comment"></i> <a href="blog-single.html">12 Comments</a></li>
                                         </ul>
                                     </div>
@@ -195,31 +195,31 @@ function Blog() {
                                         <div className="post-item clearfix">
                                             <img src="assets/img/blog-recent-posts-1.jpg" alt=""/>
                                                 <h4><a href="blog-single.html">Nihil blanditiis at in nihil autem</a></h4>
-                                                <time datetime="2020-01-01">Jan 1, 2020</time>
+                                                <time dateTime="2020-01-01">Jan 1, 2020</time>
                                         </div>
 
                                         <div className="post-item clearfix">
                                             <img src="assets/img/blog-recent-posts-2.jpg" alt=""/>
                                                 <h4><a href="blog-single.html">Quidem autem et impedit</a></h4>
-                                                <time datetime="2020-01-01">Jan 1, 2020</time>
+                                                <time dateTime="2020-01-01">Jan 1, 2020</time>
                                         </div>
 
                                         <div className="post-item clearfix">
                                             <img src="assets/img/blog-recent-posts-3.jpg" alt=""/>
                                                 <h4><a href="blog-single.html">Id quia et et ut maxime similique occaecati ut</a></h4>
-                                                <time datetime="2020-01-01">Jan 1, 2020</time>
+                                                <time dateTime="2020-01-01">Jan 1, 2020</time>
                                         </div>
 
                                         <div className="post-item clearfix">
                                             <img src="assets/img/blog-recent-posts-4.jpg" alt=""/>
                                                 <h4><a href="blog-single.html">Laborum corporis quo dara net para</a></h4>
-                                                <time datetime="2020-01-01">Jan 1, 2020</time>
+                                                <time dateTime="2020-01-01">Jan 1, 2020</time>
                                         </div>
 
                                         <div className="post-item clearfix">
                                             <img src="assets/img/blog-recent-posts-5.jpg" alt=""/>
                                                 <h4><a href="blog-single.html">Et dolores corrupti quae illo quod dolor</a></h4>
-                                                <time datetime="2020-01-01">Jan 1, 2020</time>
+                                                <time dateTime="2020-01-01">Jan 1, 2020</time>
                                         </div>
 
                                     </div>

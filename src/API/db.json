@@ -1,54 +1,88 @@
 {
-    "about":[
-
-    ],
-    "services":[
-
-    ],
-    "team":[
-
-    ],
-    "features":[
-
-    ],
-    "testimonials":[
-
-    ],
-    "courseDetails":[
-        {
-            "id":1,
-            "name":"Electronics and Communication Engineering",
-            "type":"Deploma",
-            "duration":"3 years",
-            "cost": "₹ 2.80 lacs"
-        },
-        {
-            "id":2,
-            "name":"Electronics and Communication Engineering",
-            "type":"B.Tech",
-            "duration":"4 years",
-            "cost": "₹ 3.90 lacs"
-        },
-        {
-            "id":3,
-            "name":"Electronics and Communication Engineering",
-            "type":"M.Tech",
-            "duration":"2 years",
-            "cost": "₹ 2.10 lacs"
-        },
-        {
-            "id":4,
-            "name":"Mechanical Engineering",
-            "type":"M.Tech",
-            "duration":"2 years",
-            "cost": "₹ 2.10 lacs"
-        }
-
-    ],
-    "instituteContact":[
-
-    ],
-    "studentContact":[
-        
-    ]
+  "about": [],
+  "services": [],
+  "team": [],
+  "features": [],
+  "testimonials": [],
+  "courseDetails": [
+    {
+      "id": 1,
+      "courceName": "Javascript",
+      "duration": "one month",
+      "cost": "₹ 12 Thousand"
+    },
+    {
+      "id": 2,
+      "courceName": "Python",
+      "duration": "Two month",
+      "cost": "₹ 15 Thousand"
+    },
+    {
+      "id": 3,
+      "courceName": "Larabel",
+      "duration": "Four month",
+      "cost": "₹ 28 Thousand"
+    },
+    {
+      "id": 4,
+      "courceName": "React",
+      "duration": "Three month",
+      "cost": "₹ 23 Thousand"
+    }
+  ],
+  "courseApply": [
+    {
+      "name": "Pallab Mondal",
+      "email": "pallab@gmail.com",
+      "phone": "8670858747",
+      "qualification": "B.Tech",
+      "id": 1
+    },
+    {
+      "name": "Anindita Dutta",
+      "email": "anin@gmail.com",
+      "phone": "5785123458",
+      "qualification": "B.Sc",
+      "id": 2
+    }
+  ],
+  "courseQuestions": [
+    {
+      "question": "How do I submit an application?",
+      "answer": "General information on how to apply can be found here. To submit an application, you can access the school's online application system. After creating a user account, you may continually login to work on your application prior to officially submitting it for admission consideration.",
+      "id": 1
+    },
+    {
+      "question": "When should I apply?",
+      "answer": "While some programs operate on rolling admissions, others have specific deadline dates. Please refer to the program’s homepage, along with the Deadline Dates by Program reference sheet, for the most accurate information",
+      "id": 2
+    },
+    {
+      "question": "Is there a fee?",
+      "answer": "Yes, a $50 application fee is required before your application will be processed. You may pay online with a credit card or via mail with a check. More information about this process will be provided when you officially submit your application.",
+      "id": 3
+    },
+    {
+      "question": "How do I determine if I have completed the prerequisite courses for the teacher certification program?",
+      "answer": "You are encouraged to complete an Online Transcript Review. You do not need to have completed ALL prerequisites at the time you submit an application; however, they must be satisfied by the time your intended program will begin (fall for MAT; summer-ll for PreK-4). If you have questions about prerequisite courses, please do not hesitate to contact the graduate enrollment manager for your program of interest! ",
+      "id": 4
+    },
+    {
+      "question": "What is required to complete my application?",
+      "answer": "Admission requirements vary by program. It is best to consult the program's homepage and the admissions procedures to determine the exact credentials required for your specific program.",
+      "id": 5
+    },
+    {
+      "question": "Where should I send application materials?",
+      "answer": "Application materials should be sent to the Office of Admissions and Enrollment Services",
+      "id": 6
+    },
+    {
+      "question": "How do I register for a required admissions test and how will you get my scores?",
+      "answer": "The following links will direct you to information from Educational Testing Service about admission tests (which, may be required depending upon your specific program of interest). When taking a test, please be sure to indicate the relevant school code(s) so that we receive an official score report. Please note that none of our Master's Degree programs require the GRE for admission.",
+      "id": 7
+    }
+  ],
+  "instituteContact": [],
+  "studentContact": []
 }

@@ -20,7 +20,7 @@ function Cources() {
                             <h2>Pricing</h2>
                             <ol>
                                 <li><Link to="/">Home</Link></li>
-                                <li>Pricing</li>
+                                <li>Cources</li>
                             </ol>
                         </div>
 
