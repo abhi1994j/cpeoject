@@ -1,12 +1,9 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import HomeHeader from '../component/coore/home/HomeHeader';
 
 function Testimonials() {
     return (
         <>
-
-            <HomeHeader/>
 
             <main id="main">
 

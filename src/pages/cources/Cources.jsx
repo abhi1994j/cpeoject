@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import HomeHeader from '../../component/coore/home/HomeHeader';
 import CourceDetails from './CourceDetails';
 import CourceQuestions from './CourceQuestions';
 
@@ -8,7 +7,6 @@ function Cources() {
     return (
         <>
 
-            <HomeHeader />
 
             <main id="main">
 

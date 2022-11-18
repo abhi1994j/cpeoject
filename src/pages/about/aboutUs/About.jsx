@@ -3,14 +3,11 @@ import AboutUs from '../../../component/coore/home/main/AboutUs';
 import Client from '../../../component/coore/home/main/Client';
 import AboutBread from './AboutBread';
 import AboutTeam from './AboutTeam';
-import HomeHeader from '../../../component/coore/home/HomeHeader';
 
 function About() {
     return (
         <>
             <main id="main">
-                {/* -------------header------ */}
-                <HomeHeader />
                 {/* ----------Breadcrumbs------------- */}
                 <AboutBread />
                 {/* <!-- ======= About Us Section ======= --> */}

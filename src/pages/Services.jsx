@@ -1,13 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import HomeHeader from '../component/coore/home/HomeHeader';
 import HomeServices from '../component/coore/home/main/HomeServices';
 
 function services() {
   return (
     <>
-
-      <HomeHeader />
 
       <main id="main">
 
