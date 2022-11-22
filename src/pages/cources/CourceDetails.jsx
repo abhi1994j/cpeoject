@@ -1,18 +1,14 @@
-import React from 'react'
-import { useEffect,useState } from 'react';
+import React,{useEffect} from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
-import { getApiData } from '../../AxiosMethods/AxiosMethods'
+import { getDetailsData } from '../../Reducers/CourseDetRed';
 
 const CourceDetails = () => {
-    const [detailsData, setDetailsData] = useState([])
-
-    const getDetailsData = async () => {
-        const res = await getApiData('courseDetails');
-        setDetailsData(res.data);
-    }
+    const {detailsData}=useSelector(state=>state.CourceDetRed);
+    const dispatch=useDispatch();
 
     useEffect(() => {
-        getDetailsData();
+        dispatch(getDetailsData());
     }, [])
 
     return (
@@ -36,7 +32,7 @@ const CourceDetails = () => {
                                             <li><strong>Cource Fees: </strong>{item.cost}</li>
                                         </ul>
                                         <div className="btn-wrap">
-                                            <Link to={`/apply`} className="btn-buy">Apply</Link>
+                                            <Link to={`/apply/${item.courceName}`} className="btn-buy">Apply</Link>
                                         </div>
                                     </div>
                                 </div>

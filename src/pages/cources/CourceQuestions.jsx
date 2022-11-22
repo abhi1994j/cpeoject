@@ -1,22 +1,25 @@
 import React from 'react';
 import { useEffect } from 'react';
-import { useState } from 'react';
-import { getApiData } from '../../AxiosMethods/AxiosMethods';
+import { useDispatch, useSelector } from 'react-redux';
+import { getQueData } from '../../Reducers/CourseQueRed';
 
 const CourceQuestions = () => {
-    const [queData, setQueData] = useState([]);
+   const {queData}=useSelector(state=>state.CourseQueRed)
+   const dispatch=useDispatch()
+    // const [queData, setQueData] = useState([]);
 
-    const getQueData = async () => {
-        const res = await getApiData('courseQuestions');
-        setQueData(res.data)
-    }
+    // const getQueData = async () => {
+    //     const res = await getApiData('courseQuestions');
+    //     setQueData(res.data)
+    // }
 
     useEffect(() => {
-        getQueData();
+        dispatch(getQueData());
     }, [])
 
     return (
         <>
+        
             <section id="faq" className="faq section-bg">
                 <div className="container" data-aos="fade-up">
 

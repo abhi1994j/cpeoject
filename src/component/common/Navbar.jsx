@@ -2,13 +2,16 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Navbar() {
+    // console.log(isApply);
     return (
         <>
             <header id="header" className="fixed-top">
+
                 <div className="container d-flex align-items-center">
 
-                <h1 className="logo mr-auto"><a href="index.html"><span>Com</span>pany</a></h1>
-                
+
+                    <h1 className="logo mr-auto"><a href="index.html"><span>Com</span>pany</a></h1>
+
                     {/* -----------Navbar---------------- */}
                     <button type="button" className="mobile-nav-toggle d-lg-none"><i className="icofont-navigation-menu"></i></button>
 
@@ -37,10 +40,15 @@ function Navbar() {
                     </div>
 
                 </div>
-            </header>
+                </header>
+
+
+
 
         </>
     )
 }
+
+
 
 export default Navbar;
