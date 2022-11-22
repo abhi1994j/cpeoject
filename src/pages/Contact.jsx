@@ -1,11 +1,9 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
-import HomeHeader from '../component/coore/home/HomeHeader';
+import { Link } from 'react-router-dom';
 
 function Contact() {
     return (
         <>
-           <HomeHeader/>
 
             <main id="main">
 
@@ -26,7 +24,7 @@ function Contact() {
 
                 {/* <!-- ======= Contact Section ======= --> */}
                 <div className="map-section">
-                    <iframe style={{border: '0', width: '100%', height: '350px'}} src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+                    <iframe style={{ border: '0', width: '100%', height: '350px' }} src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameBorder="0" allowFullScreen></iframe>
                 </div>
 
                 <section id="contact" className="contact">
@@ -41,19 +39,19 @@ function Contact() {
                                         <div className="col-lg-4 info">
                                             <i className="icofont-google-map"></i>
                                             <h4>Location:</h4>
-                                            <p>A108 Adam Street<br/>New York, NY 535022</p>
+                                            <p>A108 Adam Street<br />New York, NY 535022</p>
                                         </div>
 
                                         <div className="col-lg-4 info mt-4 mt-lg-0">
                                             <i className="icofont-envelope"></i>
                                             <h4>Email:</h4>
-                                            <p>info@example.com<br/>contact@example.com</p>
+                                            <p>info@example.com<br />contact@example.com</p>
                                         </div>
 
                                         <div className="col-lg-4 info mt-4 mt-lg-0">
                                             <i className="icofont-phone"></i>
                                             <h4>Call:</h4>
-                                            <p>+1 5589 55488 51<br/>+1 5589 22475 14</p>
+                                            <p>+1 5589 55488 51<br />+1 5589 22475 14</p>
                                         </div>
                                     </div>
                                 </div>
@@ -88,7 +86,9 @@ function Contact() {
                                         <div className="error-message"></div>
                                         <div className="sent-message">Your message has been sent. Thank you!</div>
                                     </div>
-                                    <div className="text-center"><button type="submit">Send Message</button></div>
+                                    <div className="text-center">
+                                        <button type="submit">Send Message</button>
+                                    </div>
                                 </form>
                             </div>
 
