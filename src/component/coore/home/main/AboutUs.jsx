@@ -24,8 +24,8 @@ function AboutUs() {
           {
             AboutData.map((item) => {
               return (
-                <div className="row content" >
-                  <div className="col-lg-6" data-aos="fade-right" key={item.id}>
+                <div className="row content" key={item.id}>
+                  <div className="col-lg-6" data-aos="fade-right">
                     <h2>{item.data}</h2>
                     <h3>{item.data1}</h3>
                   </div>

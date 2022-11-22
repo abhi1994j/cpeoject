@@ -1,9 +1,4 @@
 {
-<<<<<<< HEAD
-  "about": [],
-  "services": [],
-  "team": [],
-  "features": [],
   "testimonials": [
     {
       "id": 1,
@@ -42,7 +37,6 @@
       "speech": "Trust yourself that you can do it and get it."
     }
   ],
-=======
   "about": [
     {
       "id": 1,
@@ -144,8 +138,7 @@
   ],
   "team": [],
   "features": [],
-  "testimonials": [],
->>>>>>> 4af99b7cc331a93a14c610812f65912a45fafdb3
+  
   "courseDetails": [
     {
       "id": 1,
@@ -161,11 +154,7 @@
     },
     {
       "id": 3,
-<<<<<<< HEAD
       "courceName": "Larabel",
-=======
-      "courceName": "Laravel",
->>>>>>> 4af99b7cc331a93a14c610812f65912a45fafdb3
       "duration": "Four month",
       "cost": "₹ 28 Thousand"
     },
@@ -190,8 +179,6 @@
       "phone": "5785123458",
       "qualification": "B.Sc",
       "id": 2
-<<<<<<< HEAD
-=======
     },
     {
       "name": "Abhishek",
@@ -227,7 +214,6 @@
       "phone": "9456115155",
       "qualification": "hgvhgvgggg",
       "id": 7
->>>>>>> 4af99b7cc331a93a14c610812f65912a45fafdb3
     }
   ],
   "courseQuestions": [
