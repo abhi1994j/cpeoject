@@ -22,7 +22,7 @@ function HomeServices() {
 
                     <div className="section-title">
                         <h2>Services</h2>
-                        <p>Laborum repudiandae omnis voluptatum consequatur mollitia ea est voluptas ut</p>
+                        <p>Here are the services to provide our Students</p>
                     </div>
                     <div className='row'>
                         {
@@ -39,7 +39,7 @@ function HomeServices() {
                                             </div>
                                             <h4><a href="">{item.service}</a></h4>
                                             <p>{item.servicedata}</p>
-                                        </div><br/><br />
+                                        </div>
                                     </div>
                                 )
                             })}
