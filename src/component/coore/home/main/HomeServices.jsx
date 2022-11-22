@@ -1,10 +1,52 @@
 import React from 'react'
+import { useEffect } from 'react';
+import { useState } from 'react';
+import { getApiData } from '../../../../AxiosMethods/AxiosMethods';
 
 function HomeServices() {
+    const [ServiceData, setServiceData] = useState([]);
+
+    const getServiceData = async () => {
+        const res = await getApiData('services');
+        setServiceData(res.data);
+        console.log(res.data);
+    }
+    useEffect(() => {
+        getServiceData();
+    }, [])
+
     return (
         <>
             <section id="services" className="services section-bg">
                 <div className="container" data-aos="fade-up">
+
+                    <div className="section-title">
+                        <h2>Services</h2>
+                        <p>Laborum repudiandae omnis voluptatum consequatur mollitia ea est voluptas ut</p>
+                    </div>
+                    <div className='row'>
+                        {
+                            ServiceData.map((item) => {
+                                return (
+                                    <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-3" data-aos="zoom-in" data-aos-delay="100" key={item.id}>
+
+                                        <div className={item.color}>
+                                            <div className="icon">
+                                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                                                    <path stroke="none" strokeWidth="0" fill="#f5f5f5" d={item.logo}></path>
+                                                </svg>
+                                                <i className={item.icon}></i>
+                                            </div>
+                                            <h4><a href="">{item.service}</a></h4>
+                                            <p>{item.servicedata}</p>
+                                        </div>
+                                    </div>
+                                )
+                            })}
+                    </div>
+
+                </div>
+                 {/* <div className="container" data-aos="fade-up">
 
                     <div className="section-title">
                         <h2>Services</h2>
@@ -92,11 +134,11 @@ function HomeServices() {
 
                     </div>
 
-                </div>
+                </div>   */}
             </section>
 
         </>
     )
 }
 
-export default HomeServices
+export default HomeServices;

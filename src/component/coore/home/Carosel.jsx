@@ -13,8 +13,8 @@ function Carosel() {
 }}>
                             <div className="carousel-container">
                                 <div className="carousel-content animate__animated animate__fadeInUp">
-                                    <h2>Welcome to <span>Company</span></h2>
-                                    <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                                    <h2>Welcome to <span>JIS Group</span></h2>
+                                    <p>JIS Group Educational Initiatives - the largest educational conglomerate of Eastern India with 37 Institutions, 170 programmes and 39,000 students began its journey 24 years back. The journey, though not easy, has been quite a successful one. JIS University was established through the Legislative Act of the Government of West Bengal, viz. JIS University Act, 2014 (West Bengal Act XXII of 2014) that came into force in February, 2015.</p>
                                     <div className="text-center"><a href="" className="btn-get-started">Read More</a></div>
                                 </div>
                             </div>
@@ -25,8 +25,8 @@ function Carosel() {
 }}>
                             <div className="carousel-container">
                                 <div className="carousel-content animate__animated animate__fadeInUp">
-                                    <h2>Lorem Ipsum Dolor</h2>
-                                    <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                                    <h2>OUR COURSES</h2>
+                                    <p>We provide instructions,teaching, training and research in specialized fields of Science,Engineering & Technology, Pharmacy, Management, Law, Education and Hospitality</p>
                                     <div className="text-center"><a href="" className="btn-get-started">Read More</a></div>
                                 </div>
                             </div>
@@ -36,8 +36,8 @@ function Carosel() {
                         <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/slide-3.jpg)'}}>
                             <div className="carousel-container">
                                 <div className="carousel-content animate__animated animate__fadeInUp">
-                                    <h2>Sequi ea ut et est quaerat</h2>
-                                    <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
+                                    <h2>ALLIANCE & PARTNERSHIPS</h2>
+                                    <p>Tie ups with different organization, foreign Universities. various Chamber of Commerce and trade bodies.</p>
                                     <div className="text-center"><a href="" className="btn-get-started">Read More</a></div>
                                 </div>
                             </div>
@@ -63,4 +63,4 @@ function Carosel() {
     )
 }
 
-export default Carosel
+export default Carosel;
