@@ -173,6 +173,7 @@
   ],
   "courseApply": [
     {
+      "courceName": "Larabel",
       "name": "Pallab Mondal",
       "email": "pallab@gmail.com",
       "phone": "8670858747",
@@ -180,6 +181,7 @@
       "id": 1
     },
     {
+      "courceName": "Python",
       "name": "Anindita Dutta",
       "email": "anin@gmail.com",
       "phone": "5785123458",

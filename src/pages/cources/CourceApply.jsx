@@ -1,12 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { postApiData } from '../../AxiosMethods/AxiosMethods';
-// import { useParams } from 'react-router-dom';
 
 const CourceApply = () => {
-    // const { id } = useParams();
 
-    const initialValue = { name: '', email: '', phone: '', qualification: '' }
+    const {courceName}=useParams();
+    const initialValue = {courceName:courceName, name: '', email: '', phone: '', qualification: '' }
     const [formValue, setFormValue] = useState(initialValue);
     const [formError, setFormError] = useState({});
     const [isSubmit, setIsSubmit] = useState(false);
@@ -68,19 +67,30 @@ const CourceApply = () => {
 
     return (
         <>
-        
 
             {/* <!-- ======= Apply Form ======= --> */}
             <section id="contact" className="contact">
                 <div className="container">
 
-
                     <div className="row mt-5 justify-content-center" data-aos="fade-up">
 
-                        {/* <h3>Application for {courceName}</h3> */}
+                        
+
+                        {
+                            Object.keys(formError).length === 0 && isSubmit
+                            &&
+                            <div className="alert alert-success alert-dismissible fade show" role="alert">
+                                <strong>Success! </strong>
+                                your Application for <strong>{courceName}</strong> Was submited successfully
+                                <button type="button" className="close" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        }
 
                         <div className="col-lg-10">
                             <form className="php-email-form">
+                           <center> <h3>Application for <strong> {courceName} </strong></h3></center>
 
                                 <div className="form-group">
                                     <label htmlFor="">Name</label>

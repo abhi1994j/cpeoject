@@ -4,10 +4,9 @@ import CourceDetails from './CourceDetails';
 import CourceQuestions from './CourceQuestions';
 
 function Cources() {
+
     return (
         <>
-
-
             <main id="main">
 
                 {/* <!-- ======= Breadcrumbs ======= --> */}
@@ -25,11 +24,13 @@ function Cources() {
                     </div>
                 </section>
 
+                {/* <!-- ======= Alert Section ======= --> */}
+
                 {/* <!-- =======Cources or Pricing Section  ======= --> */}
-                    <CourceDetails/>
+                <CourceDetails />
 
                 {/* <!-- ======= Frequently Asked Questions Section ======= --> */}
-                <CourceQuestions/>
+                <CourceQuestions />
             </main>
 
         </>

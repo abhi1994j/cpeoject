@@ -28,7 +28,7 @@ function HomeServices() {
                         {
                             ServiceData.map((item) => {
                                 return (
-                                    <div className="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100" key={item.id}>
+                                    <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-3" data-aos="zoom-in" data-aos-delay="100" key={item.id}>
 
                                         <div className={item.color}>
                                             <div className="icon">
