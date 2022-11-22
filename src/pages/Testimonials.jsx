@@ -41,7 +41,7 @@ const Testimonials = () => {
                         <div className="row">
                             {
                                 testimonialsData.map((item) =>
-                                    <div className="col-lg-6" data-aos="fade-up" key={item.id}>
+                                    <div className="col-lg-6 mt-2" data-aos="fade-up" key={item.id}>
                                         <div className="testimonial-item">
                                             <img src={item.image} className="testimonial-img" alt="" />
                                             <h3>{item.name}</h3>
