@@ -10,13 +10,14 @@ export default function Footer() {
             <div className="row">
 
               <div className="col-lg-3 col-md-6 footer-contact">
-                <h3>Company</h3>
+                <h3>JISGROUP</h3>
                 <p>
-                  A108 Adam Street <br />
-                  New York, NY 535022<br />
-                  United States <br /><br />
-                  <strong>Phone:</strong> +1 5589 55488 55<br />
-                  <strong>Email:</strong> info@example.com<br />
+                  Barrackpore - Kalyani Expy<br />
+                  Block A5, Block A<br />
+                  Kalyani, West Bengal 741235,<br />
+                  INDIA<br /><br />
+                  <strong>Phone:</strong> 03325808640<br />
+                  <strong>Email:</strong> info@jisuniversity.ac.in<br />
                 </p>
               </div>
 
@@ -58,10 +59,10 @@ export default function Footer() {
 
           <div className="mr-md-auto text-center text-md-left">
             <div className="copyright">
-              &copy; Copyright <strong><span>Company</span></strong>. All Rights Reserved
+              &copy; Copyright <strong><span>JISGROUP</span></strong>. All Rights Reserved
             </div>
             <div className="credits">
-              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+              Designed by <a href="https://bootstrapmade.com/">MAPS</a>
             </div>
           </div>
           <div className="social-links text-center text-md-right pt-3 pt-md-0">
@@ -74,7 +75,7 @@ export default function Footer() {
         </div>
       </footer>
 
-      
+
       <a href="" className="back-to-top"><i className="icofont-simple-up"></i></a>
 
     </>

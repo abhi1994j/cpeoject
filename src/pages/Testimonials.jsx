@@ -1,4 +1,5 @@
 import React from 'react';
+<<<<<<< HEAD
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { getApiData } from '../AxiosMethods/AxiosMethods'
@@ -13,6 +14,9 @@ const Testimonials = () => {
     useEffect(() => {
         getTestimonialslsData();
     }, [])
+=======
+import {Link} from 'react-router-dom';
+>>>>>>> 4af99b7cc331a93a14c610812f65912a45fafdb3
 
     return (
         <>
