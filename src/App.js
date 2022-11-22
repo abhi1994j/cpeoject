@@ -7,7 +7,7 @@ import About from './pages/about/aboutUs/About';
 import Testimonials from './pages/Testimonials';
 import Services from './pages/Services'
 import Cources from './pages/cources/Cources';
-import Blog from './pages/Blog';
+import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact';
 import Navbar from './component/common/Navbar';
 import CourceApply from './pages/cources/CourceApply';
