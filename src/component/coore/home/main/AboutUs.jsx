@@ -1,6 +1,18 @@
 import React from 'react'
-
+import { useEffect } from 'react';
+import { useState } from 'react';
+import { getApiData } from '../../../../AxiosMethods/AxiosMethods';
 function AboutUs() {
+  const [AboutData, setAboutData] = useState([]);
+
+  const getAboutData = async () => {
+    const res = await getApiData('about');
+    setAboutData(res.data)
+  }
+
+  useEffect(() => {
+    getAboutData();
+  }, [])
   return (
     <>
       <section id="about-us" className="about-us">
@@ -9,8 +21,38 @@ function AboutUs() {
           <div className="section-title">
             <h2>About Us</h2>
           </div>
-
-          <div className="row content">
+          {
+            AboutData.map((item) => {
+              return (
+                <div className="row content" >
+                  <div className="col-lg-6" data-aos="fade-right" key={item.id}>
+                    <h2>{item.data}</h2>
+                    <h3>{item.data1}</h3>
+                  </div>
+                  <div className="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left">
+                    <p>
+                      {item.content}
+                    </p>
+                    {/* <p className="font-italic">
+                      {item.content1}
+                    </p> */}
+                    {/* <p className="font-italic">
+                      {item.content2}
+                    </p> */}
+                    {/* <p className="font-italic">
+                      {item.content3}
+                    </p> */}
+                    <ul>
+                      <li><i className="ri-check-double-line"></i>{item.features}</li>
+                      <li><i className="ri-check-double-line"></i>{item.features1}</li>
+                      <li><i className="ri-check-double-line"></i>{item.features2}</li>
+                      <li><i className="ri-check-double-line"></i>{item.features3}</li>
+                    </ul>
+                  </div>
+                </div>
+              )
+            })}
+          {/* <div className="row content">
             <div className="col-lg-6" data-aos="fade-right">
               <h2>Eum ipsam laborum deleniti velitena</h2>
               <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assum perenda sruen jonee trave</h3>
@@ -31,7 +73,7 @@ function AboutUs() {
                 magna aliqua.
               </p>
             </div>
-          </div>
+          </div> */}
 
         </div>
       </section>
