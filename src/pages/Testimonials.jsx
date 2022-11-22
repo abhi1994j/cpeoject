@@ -43,7 +43,7 @@ const Testimonials = () => {
                                 testimonialsData.map((item) =>
                                     <div className="col-lg-6" data-aos="fade-up" key={item.id}>
                                         <div className="testimonial-item">
-                                            <img src="assets/img/testimonials/testimonials-1.jpg" className="testimonial-img" alt="" />
+                                            <img src={item.image} className="testimonial-img" alt="" />
                                             <h3>{item.name}</h3>
                                             <h4>{item.role}</h4>
                                             <p>

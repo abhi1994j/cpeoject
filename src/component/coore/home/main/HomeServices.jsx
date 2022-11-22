@@ -14,6 +14,7 @@ function HomeServices() {
     useEffect(() => {
         getServiceData();
     }, [])
+
     return (
         <>
             <section id="services" className="services section-bg">
@@ -27,8 +28,8 @@ function HomeServices() {
                         {
                             ServiceData.map((item) => {
                                 return (
-
                                     <div className="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100" key={item.id}>
+
                                         <div className={item.color}>
                                             <div className="icon">
                                                 <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
@@ -38,9 +39,8 @@ function HomeServices() {
                                             </div>
                                             <h4><a href="">{item.service}</a></h4>
                                             <p>{item.servicedata}</p>
-                                        </div>
+                                        </div><br/><br />
                                     </div>
-
                                 )
                             })}
                     </div>
@@ -141,4 +141,4 @@ function HomeServices() {
     )
 }
 
-export default HomeServices
+export default HomeServices;

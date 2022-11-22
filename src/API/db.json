@@ -4,37 +4,43 @@
       "id": 1,
       "name": "Saul Goodman",
       "role": "CEO & Founder",
-      "speech": "Some people don't like change, but you need to embrace change if the alternative is disaster."
+      "speech": "Some people don't like change, but you need to embrace change if the alternative is disaster.",
+      "image":"assets/img/testimonials/testimonials-1.jpg"
     },
     {
       "id": 2,
       "name": "Sara Wilsson",
       "role": "Designer",
-      "speech": "When I was in college, I wanted to be involved in things that would change the world."
+      "speech": "When I was in college, I wanted to be involved in things that would change the world.",
+      "image":"assets/img/testimonials/testimonials-2.jpg"
     },
     {
       "id": 3,
       "name": "Jena Karlis",
       "role": "Store owner",
-      "speech": "I think life on Earth must be about more than just solving problems ... It's got to be something inspiring, even if it is vicarious."
+      "speech": "I think life on Earth must be about more than just solving problems ... It's got to be something inspiring, even if it is vicarious.",
+      "image":"assets/img/testimonials/testimonials-3.jpg"
     },
     {
       "id": 4,
       "name": "Matt Brandon",
       "role": "Freelancer",
-      "speech": "Do what you can, with what you have, where you are."
+      "speech": "Do what you can, with what you have, where you are.",
+      "image":"assets/img/testimonials/testimonials-4.jpg"
     },
     {
       "id": 5,
       "name": "John Larson",
       "role": "Entrepreneur",
-      "speech": "It's never too late to be what you might've been."
+      "speech": "It's never too late to be what you might've been.",
+      "image":"assets/img/testimonials/testimonials-5.jpg"
     },
     {
       "id": 6,
       "name": "Emily Harison",
       "role": "Store owner",
-      "speech": "Trust yourself that you can do it and get it."
+      "speech": "Trust yourself that you can do it and get it.",
+      "image":"assets/img/testimonials/testimonials-6.jpg"
     }
   ],
   "about": [
