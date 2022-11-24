@@ -142,7 +142,32 @@
       "logo": "assets/img/clients/client-8.png"
     }
   ],
-  "team": [],
+  "team": [
+    {
+      "id":1,
+      "image":"assets/img/team/team-1.jpg",
+      "name":"Hande Ercel",
+      "position":"Chief Executive Officer"
+    },
+    {
+      "id":2,
+      "image":"assets/img/team/team-2.jpg",
+      "name":"Allu Arjun",
+      "position":"Full Stack Devoloper"
+    },
+    {
+      "id":3,
+      "image":"assets/img/team/team-3.jpg",
+      "name":"Prabhas",
+      "position":"Product Manager"
+    },
+    {
+      "id":4,
+      "image":"assets/img/team/team-4.jpg",
+      "name":"Rasmika Mandana",
+      "position":"Accountant"
+    }
+  ],
   "features": [],
   "courseDetails": [
     {
