@@ -229,6 +229,14 @@
       "phone": "8910374010",
       "qualification": "bsc",
       "id": 8
+    },
+    {
+      "courceName": "Javascript",
+      "name": "Abhishek",
+      "email": "abhibaban4@gmail.com",
+      "phone": "8910374010",
+      "qualification": "b.sc",
+      "id": 9
     }
   ],
   "courseQuestions": [
