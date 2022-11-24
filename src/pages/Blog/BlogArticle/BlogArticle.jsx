@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { usePagination } from '../../../helper/PaginationHook';
-import { blogSerchAct, getArtData } from '../../../Reducers/BlogReducer/BlogArtRed';
+import { filteredAction, getArtData } from '../../../Reducers/BlogReducer/BlogArtRed';
 import { Pagination } from '@mui/material';
 
 const BlogArticle = () => {
@@ -36,14 +36,14 @@ const BlogArticle = () => {
     if (artData.length === 0) {
       dispatch(getArtData())
     } else {
-      dispatch(blogSerchAct(artData))
+      dispatch(filteredAction(artData))
     }
   }, [artData])
 
 
-  console.log(endPageIndex);
-  console.log(filteredData);
-  console.log(display());
+  // console.log(endPageIndex);
+  // console.log(filteredData);
+  // console.log(display());
 
 
   return (
@@ -64,9 +64,10 @@ const BlogArticle = () => {
 
               <div className="entry-meta">
                 <ul>
-                  <li className="d-flex align-items-center"><i className="icofont-user"></i> <a href="blog-single.html">John Doe</a></li>
-                  <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a href="blog-single.html"><time dateTime="2020-01-01">Jan 1, 2020</time></a></li>
-                  <li className="d-flex align-items-center"><i className="icofont-comment"></i> <a href="blog-single.html">12 Comments</a></li>
+                  <li className="d-flex align-items-center"><i className="icofont-user"></i> <a href="blog-single.html">{item.name}</a></li>
+                  <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a href="blog-single.html"><time dateTime="2020-01-01">{item.date}</time></a></li>
+                  <li className="d-flex align-items-center"><i className="fa-solid fa-tag"></i> <a href="blog-single.html">{item.tags}</a></li>
+                  <li className="d-flex align-items-center"><i className="fa-brands fa-codepen"></i> <a href="blog-single.html">{item.catagories}</a></li>
                 </ul>
               </div>
 

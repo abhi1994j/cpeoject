@@ -1,0 +1,193 @@
+{
+    "blogArticle":[
+        {
+            "title":"Dementia Rates, Deepfakes, Migrant Students: RAND Weekly Recap",
+            "body":"This weekly recap focuses on the decline of dementia rates among Americans, the dangers of deepfakes, data privacy after the reversal of Roe v. Wade, and more.",
+            "name":"Gobinda Das",
+            "date":"15-04-2021",
+            "catagories":"general",
+            "tags":"javascript",
+            "id":1
+        },
+        {
+            "title":"Federal Data Gaps on New Migrant Students Leave Schools Unable to Plan Ahead",
+            "body":"Federal law requires U.S. public schools to serve all school-age children who come to their doors, no matter their immigration status. With thousands of children",
+            "name":"Rama Roy",
+            "date":"24-11-2020",
+            "catagories":"education",
+            "tags":"react",
+            "id":2
+        },
+        {
+            "title":"U.S. Labor Market, 988 Hotline, Firearm Homicides: RAND Weekly Recap",
+            "body":"This weekly recap focuses on the U.S. economy’s uneven pandemic recovery, a new national mental health hotline, firearm homicides, and more.",
+            "name":"papiya choudhury",
+            "date":"13-04-2022",
+            "catagories":"placement",
+            "tags":"angular",
+            "id":3
+        },
+        {
+            "title":"Boost your JEE Preparation with IIT-JEE Foundation Series",
+            "body":"In India, to be an IIT graduate or an IIT student is momentous. It is a steppingstone for many engineering aspirants. These institutes are built to offer a competitive learning environment and a bright future to their students. Every year, over a million students in India take IIT entrance exams. Even though there are limited seats, the enthusiasm is the same every single year.",
+            "name":"Raja Ram Prasad",
+            "date":"15-04-2021",
+            "catagories":"placement",
+            "tags":"javascript",
+            "id":4
+        },
+        {
+            "title":"Reasons Why Digital Learning is the Future of Education",
+            "body":"Conventional education has gone through tremendous changes in the recent past. With the pandemic outbreak, the world witnessed a massive swing in educational methods. Plus, we saw how digital methods came to the rescue. Access to the internet and a smartphone or computer can make education accessible from any corner of the world.",
+            "name":"Niladri Sarkar",
+            "date":"15-04-2021",
+            "catagories":"design",
+            "tags":"react",
+            "id":5
+        },
+        {
+            "title":"What Is the Concept Of An E-library? How Is It Useful?",
+            "body":"A digital library, also known as an e-library, is a collection of documents in an organized digital form, available on the internet or on disks. The purpose of an e-library is to store, access, and manage magazine articles, books, audio files, images, and video files.",
+            "name":"Pavan Kumar",
+            "date":"15-04-2021",
+            "catagories":"general",
+            "tags":"python",
+            "id":6
+        },
+        {
+            "title":"Learning Beyond Books/New Age Learning Curriculum",
+            "body":"You don't understand anything until you learn it more than one way. a quote by Marvin Minksy, explores how different approaches aid and strengthen the knowledge a learner acquires. While their academic knowledge may be limited to the classroom, learning in other forms transpires every second of their day. Therefore, the school as a whole can serve as a source of learning itself, broadening their scope of wisdom and intellect.",
+            "name":"Avhisek Roy",
+            "date":"15-04-2021",
+            "catagories":"education",
+            "tags":"javascript",
+            "id":7
+        },
+        {
+            "title":"The rapid evolution of the Higher Education sector in India",
+            "body":"The face of higher education in India has changed drastically in the past two decades. Privatization has increased the cost of education, reduced job opportunities while increased competition in the sector. This is one of the many reasons why the education sector is looking back at its functions and systems in order to bring about the necessary changes and align with the advancements that are happening in the sector.",
+            "name":"Nita Mondal",
+            "date":"15-04-2021",
+            "catagories":"placement",
+            "tags":"react",
+            "id":8
+        },
+        {
+            "title":"How to Improve English Listening Skills for Students?",
+            "body":"Listening skills should be inculcated in students right from the very first day of school. In fact, it's ideal if it begins at home. One might argue that it is a skill that one possesses by default. That may be a subjective argument. But to know if one has good listening skills, here are some characteristics to consider that define its excellence.",
+            "name":"Riya Parui",
+            "date":"15-04-2021",
+            "catagories":"general",
+            "tags":"angular",
+            "id":9
+        },
+        {
+            "title":"How To Improve English Speaking Skills As a Student?",
+            "body":"How important is it for a student to be able to fluently converse in English? This is a question as valid as asking how important oxygen is to human lives. English speaking skills are the fundamentals of a student's academic life. It is a global language, and hence, it is important to inculcate at least some basic English speaking skills.",
+            "name":"Kunal Pandey",
+            "date":"15-04-2021",
+            "catagories":"placement",
+            "tags":"python",
+            "id":10
+        },
+        {
+            "title":"30-Days Strategy to Revise UPSC Prelims",
+            "body":"UPSC Prelims are dated for June 5th, 2022, and the aspirants can give a good month for revisions leaving some buffer days in their hands. The pressure now is more than the entire preparation that must have lasted for months or even years for some.",
+            "name":"Joyti Das",
+            "date":"15-04-2021",
+            "catagories":"design",
+            "tags":"javascript",
+            "id":11
+        },
+        {
+            "title":"Preparing for CLAT 2022 in the last 40 days - the dos and the don'ts!",
+            "body":"UPSC Prelims are dated for June 5th, 2022, and the aspirants can give a good month for revisions leaving some buffer days in their hands. The pressure now is more than the entire preparation that must have lasted for months or even years for some.",
+            "name":"Jiban Kumar",
+            "date":"15-04-2021",
+            "catagories":"general",
+            "tags":"node",
+            "id":12
+        },
+        {
+            "title":"Preparing for CLAT 2022 in the last 40 days - the dos and the don'ts!",
+            "body":"CLAT 2022 is less than 2 months away which calls for some rigorous last-minute preparations. This centralized national level entrance test for law aspirants opens their gateway to 22 National Law Universities in India. An exam that holds so much value can be intimidating for students to tackle.",
+            "name":"Sumon Ganguli",
+            "date":"15-04-2021",
+            "catagories":"education",
+            "tags":"laravel",
+            "id":13
+        },
+        {
+            "title":"UGC NET Paper 2 Preparation Strategy & Study Material",
+            "body":"UGC NET exam is conducted in two papers (Paper 1 and Paper 2) each consisting of multiple-choice questions (MCQs). Both these papers intend to test the candidate’s aptitude in terms of teaching/academic research and their specialization in any subject.",
+            "name":"Suvadra Das",
+            "date":"15-04-2021",
+            "catagories":"general",
+            "tags":"javascript",
+            "id":14
+        },
+        {
+            "title":"Transmitting correct telecom signals in border areas in J&K",
+            "body":"To improve the lives and livelihoods of the people significantly in border & remote areas, the Department of Telecommunications, Government of India, has relaxed certain restrictions imposed earlier on ‘telecom connectivity’ in these areas due.",
+            "name":"Anil Arora",
+            "date":"15-04-2021",
+            "catagories":"placement",
+            "tags":"node",
+            "id":15
+        },
+        {
+            "title":"Is the tragedy of the commons leading to a comedy of errors?",
+            "body":"After the incessant (though a bit unseasonal) rain in Bangalore in Oct 2022, the autumn season has drawn to a close, and the early days of winter with the soft warm rays caressing the skin",
+            "name":"Kamal Hosen",
+            "date":"15-04-2021",
+            "catagories":"general",
+            "tags":"laravel",
+            "id":16
+        },
+        {
+            "title":"Imperative to support women entrepreneurs in India",
+            "body":"The last two decades have undergone a significant change in the entrepreneurship sector. In the 21st century, India is seeing an increasing number of women entrepreneurs that are greatly influencing the social and economic demographics",
+            "name":"Birendra Mondal",
+            "date":"15-04-2021",
+            "catagories":"creative",
+            "tags":"javascript",
+            "id":17
+        },
+        {
+            "title":"Why do we need more women leaders?",
+            "body":"A Deloitte report revealed that only 19.7 percent of the board seats are held by women globally, an increase of 2.8 percent since 2018 compared with 1.9 percent over 2016−2018. At this pace, the world",
+            "name":"Sumita Das",
+            "date":"15-04-2021",
+            "catagories":"general",
+            "tags":"node",
+            "id":18
+        },
+        {
+            "title":"Why do we need more women leaders?",
+            "body":"A Deloitte report revealed that only 19.7 percent of the board seats are held by women globally, an increase of 2.8 percent since 2018 compared with 1.9 percent over 2016−2018. At this pace, the world…",
+            "name":"Puja Shaha",
+            "date":"15-04-2021",
+            "catagories":"general",
+            "tags":"python",
+            "id":19
+        },
+        {
+            "title":"EV financing: Accelerating EV adoption in India",
+            "body":"India has been accelerating its transition to electric vehicles over the last couple of years. This growth has been backed by supportive policies by the Indian government, including FAME II subsidies, state government subsidies, and…",
+            "name":"Dip Roy",
+            "date":"15-04-2021",
+            "catagories":"creative",
+            "tags":"laravel",
+            "id":20
+        },
+        {
+            "title":"How designing and deploying AI solutions can help solve business problems?",
+            "body":"“Artificial Intelligence (AI) refers to a system that mimics human intelligence to perform tasks and can iteratively improve themselves based on the information they collect.” Businesses are always known to collect data and make intelligent…",
+            "name":"Manindra Saha",
+            "date":"15-04-2021",
+            "catagories":"general",
+            "tags":"javascript",
+            "id":21
+        }
+    ]
+}
