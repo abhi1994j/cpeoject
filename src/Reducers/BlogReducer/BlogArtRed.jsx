@@ -1,14 +1,13 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit"
 import axios from "axios";
 
-
 const initialState = {
     artData: [],
     filteredData:[]
 }
 
 export const getArtData = createAsyncThunk('blog/blogArticle', async () => {
-    const res = await axios.get('https://jsonplaceholder.typicode.com/posts')
+    const res = await axios.get('http://127.0.0.1:3004/blogArticle');
     return await res.data;
 })
 
@@ -16,7 +15,7 @@ const BlogArtSlice = createSlice({
     name: 'blogArticle',
     initialState,
     reducers: {
-        blogSerchAct(state,action){
+        filteredAction(state,action){
             state.filteredData=action.payload;
         }
     },
@@ -27,5 +26,5 @@ const BlogArtSlice = createSlice({
     }
 })
 
-export const {blogSerchAct}=BlogArtSlice.actions;
+export const {filteredAction}=BlogArtSlice.actions;
 export const BlogArtRed=BlogArtSlice.reducer;

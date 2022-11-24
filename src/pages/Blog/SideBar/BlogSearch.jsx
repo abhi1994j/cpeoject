@@ -2,7 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getArtData } from '../../../Reducers/BlogReducer/BlogArtRed';
-import { blogSerchAct } from '../../../Reducers/BlogReducer/BlogArtRed';
+import { filteredAction } from '../../../Reducers/BlogReducer/BlogArtRed';
 
 const BlogSearch = () => {
     const { artData } = useSelector(state => state.BlogArtRed);
@@ -11,9 +11,8 @@ const BlogSearch = () => {
     // console.log(filteredData);
 
     const handleChange = (e) => {
-        let filteredData=[];
-        let p = [];
-        p = artData.filter((item) => {
+        let filtData = [];
+        filtData = artData.filter((item) => {
             const lowerData = item.title.toLowerCase();
             if (e.target.value === '') {
                 return true;
@@ -22,13 +21,7 @@ const BlogSearch = () => {
             }
         });
 
-        if (!p) {
-            filteredData=artData;
-        } else {
-            filteredData=p;
-        }
-
-        dispatch(blogSerchAct(filteredData))
+        dispatch(filteredAction(filtData))
     }
 
     useEffect(() => {
@@ -49,4 +42,4 @@ const BlogSearch = () => {
     )
 }
 
-export default BlogSearch
+export default BlogSearch;
