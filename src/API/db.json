@@ -145,7 +145,7 @@
   "team": [
     {
       "id":1,
-      "image":"assets/img/team/team-1.jpg",
+      "image":"assets/img/team/team-11.jpg",
       "name":"Hande Ercel",
       "position":"Chief Executive Officer"
     },
@@ -168,7 +168,80 @@
       "position":"Accountant"
     }
   ],
-  "features": [],
+  "features": [
+    {
+      "id":1,
+      "color":"#ffbb2c",
+      "class":"ri-store-line",
+      "name":"Lorem Ipsum"
+    },
+    {
+      "id":2,
+      "color":"#5578ff",
+      "class":"ri-bar-chart-box-line",
+      "name":"Dolor Sitema"
+    },
+    {
+      "id":3,
+      "color":"#e80368",
+      "class":"ri-calendar-todo-line",
+      "name":"Sed perspiciatis"
+    },
+    {
+      "id":4,
+      "color":"#e361ff",
+      "class":"ri-paint-brush-line",
+      "name":"Magni Dolores"
+    },
+    {
+      "id":5,
+      "color":"#47aeff",
+      "class":"ri-database-2-line",
+      "name":"Nemo Enim"
+    },
+    {
+      "id":6,
+      "color":"#ffa76e",
+      "class":"ri-gradienter-line",
+      "name":"Eiusmod Tempor"
+    },
+    {
+      "id":7,
+      "color":"#11dbcf",
+      "class":"ri-file-list-3-line",
+      "name":"Midela Teren"
+    },
+    {
+      "id":8,
+      "color":"#4233ff",
+      "class":"ri-price-tag-2-line",
+      "name":"Pira Neve"
+    },
+    {
+      "id":9,
+      "color":"#b2904f",
+      "class":"ri-anchor-line",
+      "name":"Dirada Pack"
+    },
+    {
+      "id":10,
+      "color":"#b20969",
+      "class":"ri-disc-line",
+      "name":"Moton Ideal"
+    },
+    {
+      "id":11,
+      "color":"#ff5828",
+      "class":"ri-base-station-line",
+      "name":"Verdo Park"
+    },
+    {
+      "id":12,
+      "color":"#29cc61",
+      "class":"ri-fingerprint-line",
+      "name":"Flavor Nivelanda"
+    }
+  ],
   "courseDetails": [
     {
       "id": 1,

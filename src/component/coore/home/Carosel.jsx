@@ -9,7 +9,7 @@ function Carosel() {
                     <div className="carousel-inner" role="listbox">
 
 
-                        <div className="carousel-item active" style={{backgroundImage: 'url(assets/img/slide/slide-1.jpg)',
+                        <div className="carousel-item active" style={{backgroundImage: 'url(assets/img/slide/slide.jpg)',
 }}>
                             <div className="carousel-container">
                                 <div className="carousel-content animate__animated animate__fadeInUp">
