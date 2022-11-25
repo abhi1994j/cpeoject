@@ -55,7 +55,7 @@ const BlogArticle = () => {
             <article className="entry" data-aos="fade-up">
 
               <div className="entry-img">
-                <img src="assets/img/blog-1.jpg" alt="" className="img-fluid" />
+                <img src={item.image} alt="" className="img-fluid" />
               </div>
 
               <h2 className="entry-title">
