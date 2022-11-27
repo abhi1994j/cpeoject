@@ -11,6 +11,9 @@ import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact';
 import Navbar from './component/common/Navbar';
 import CourceApply from './pages/cources/CourceApply';
+import Registration from './pages/Authentication/Registration';
+import LoginPage from './pages/Authentication/LoginPage';
+import LogoutPage from './pages/Authentication/LogoutPage';
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
           <Route path='/apply/:courceName' element={<CourceApply/>}/>
           <Route path='/blog' element={<Blog/>}/>
           <Route path='/contact' element={<Contact/>}/>
+          <Route path='/login' element={<LoginPage/>}/>
+          <Route path='/registration' element={<Registration/>}/>
+          <Route path='/logout' element={<LogoutPage/>}/>
         </Routes>
         <Footer/>
       </Router>

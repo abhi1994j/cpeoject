@@ -9,7 +9,6 @@ function HomeServices() {
     const getServiceData = async () => {
         const res = await getApiData('services');
         setServiceData(res.data);
-        console.log(res.data);
     }
     useEffect(() => {
         getServiceData();

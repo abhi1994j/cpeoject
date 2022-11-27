@@ -64,10 +64,10 @@ const BlogArticle = () => {
 
               <div className="entry-meta">
                 <ul>
-                  <li className="d-flex align-items-center"><i className="icofont-user"></i> <a href="blog-single.html">{item.name}</a></li>
-                  <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a href="blog-single.html"><time dateTime="2020-01-01">{item.date}</time></a></li>
-                  <li className="d-flex align-items-center"><i className="fa-solid fa-tag"></i> <a href="blog-single.html">{item.tags}</a></li>
-                  <li className="d-flex align-items-center"><i className="fa-brands fa-codepen"></i> <a href="blog-single.html">{item.catagories}</a></li>
+                  <li className="d-flex align-items-center"><i className="icofont-user"></i> <a>{item.name}</a></li>
+                  <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a>{item.date}</a></li>
+                  <li className="d-flex align-items-center"><i className="fa-solid fa-tag"></i> <a>{item.tags}</a></li>
+                  <li className="d-flex align-items-center"><i className="fa-brands fa-codepen"></i> <a>{item.catagories}</a></li>
                 </ul>
               </div>
 

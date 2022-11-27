@@ -9,8 +9,7 @@ function Carosel() {
                     <div className="carousel-inner" role="listbox">
 
 
-                        <div className="carousel-item active" style={{backgroundImage: 'url(assets/img/slide/slide-1.jpg)',
-}}>
+                        <div className="carousel-item active" style={{backgroundImage: 'url(assets/img/slide/jis-slide-1.jpg)'}}>
                             <div className="carousel-container">
                                 <div className="carousel-content animate__animated animate__fadeInUp">
                                     <h2>Welcome to <span>JIS Group</span></h2>
@@ -21,8 +20,7 @@ function Carosel() {
                         </div>
 
 
-                        <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/slide-2.jpg)',
-}}>
+                        <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/jis-slide-3.jpg)'}}>
                             <div className="carousel-container">
                                 <div className="carousel-content animate__animated animate__fadeInUp">
                                     <h2>OUR COURSES</h2>
@@ -33,7 +31,7 @@ function Carosel() {
                         </div>
 
 
-                        <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/slide-3.jpg)'}}>
+                        <div className="carousel-item" style={{backgroundImage: 'url(assets/img/slide/jis-slide-2.jpg)'}}>
                             <div className="carousel-container">
                                 <div className="carousel-content animate__animated animate__fadeInUp">
                                     <h2>ALLIANCE & PARTNERSHIPS</h2>

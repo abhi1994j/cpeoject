@@ -1,0 +1,19 @@
+{
+  "loginData": [
+    {
+      "email": "pallab@gmail.com",
+      "password": "p12345",
+      "id": 1
+    },
+    {
+      "email": "abhi@gmail.com",
+      "password": "abhi123",
+      "id": 2
+    },
+    {
+      "email": "anin@gmail.com",
+      "password": "ani1234",
+      "id": 3
+    }
+  ]
+}

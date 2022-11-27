@@ -4,8 +4,8 @@ import { postApiData } from '../../AxiosMethods/AxiosMethods';
 
 const CourceApply = () => {
 
-    const {courceName}=useParams();
-    const initialValue = {courceName:courceName, name: '', email: '', phone: '', qualification: '' }
+    const { courceName } = useParams();
+    const initialValue = { courceName: courceName, name: '', email: '', phone: '', qualification: '' }
     const [formValue, setFormValue] = useState(initialValue);
     const [formError, setFormError] = useState({});
     const [isSubmit, setIsSubmit] = useState(false);
@@ -74,8 +74,8 @@ const CourceApply = () => {
 
                     <div className="row mt-5 justify-content-center" data-aos="fade-up">
 
-                        
 
+                        {/* <!-- ======= alert message part ======= --> */}
                         {
                             Object.keys(formError).length === 0 && isSubmit
                             &&
@@ -87,10 +87,11 @@ const CourceApply = () => {
                                 </button>
                             </div>
                         }
+                        
 
                         <div className="col-lg-10">
                             <form className="php-email-form">
-                           <center> <h3>Application for <strong> {courceName} </strong></h3></center>
+                                <center> <h3>Application for <strong> {courceName} </strong></h3></center>
 
                                 <div className="form-group">
                                     <label htmlFor="">Name</label>

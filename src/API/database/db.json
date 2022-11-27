@@ -149,25 +149,57 @@
       "id": 1,
       "courceName": "Javascript",
       "duration": "one month",
-      "cost": "₹ 12 Thousand"
+      "cost": "₹ 12 Thousand",
+      "CourseImg": "assets/img/course-details/java-script.jpg"
     },
     {
       "id": 2,
       "courceName": "Python",
       "duration": "Two month",
-      "cost": "₹ 15 Thousand"
+      "cost": "₹ 21 Thousand",
+      "CourseImg": "assets/img/course-details/python.jpg"
     },
     {
       "id": 3,
-      "courceName": "Larabel",
-      "duration": "Four month",
-      "cost": "₹ 28 Thousand"
+      "courceName": "Node Js",
+      "duration": "Six month",
+      "cost": "₹ 32 Thousand",
+      "CourseImg": "assets/img/course-details/node-js.jpg"
     },
     {
       "id": 4,
-      "courceName": "React",
-      "duration": "Three month",
-      "cost": "₹ 23 Thousand"
+      "courceName": "React Js",
+      "duration": "Six month",
+      "cost": "₹ 32 Thousand",
+      "CourseImg": "assets/img/course-details/react-js.jpg"
+    },
+    {
+      "id": 5,
+      "courceName": "Angular",
+      "duration": "Six month",
+      "cost": "₹ 32 Thousand",
+      "CourseImg": "assets/img/course-details/angular.jpg"
+    },
+    {
+      "id": 6,
+      "courceName": "MERN Stack",
+      "duration": "Eight month",
+      "cost": "₹ 52 Thousand",
+      "CourseImg": "assets/img/course-details/mern-stack.jpg"
+    },
+    {
+      "id": 7,
+      "courceName": "MEAN Stack",
+      "duration": "Eight month",
+      "cost": "₹ 52 Thousand",
+      "CourseImg": "assets/img/course-details/mean-stack.jpg"
+    },
+    {
+      "id": 8,
+      "courceName": "Laravel",
+      "duration": "Four month",
+      "cost": "₹ 25 Thousand",
+      "CourseImg": "assets/img/course-details/laravel.jpg"
     }
   ],
   "courseApply": [
@@ -237,6 +269,22 @@
       "phone": "8910374010",
       "qualification": "b.sc",
       "id": 9
+    },
+    {
+      "courceName": "Python",
+      "name": "PALLAB MONDAL",
+      "email": "pallab@gmail.com",
+      "phone": "5785123588",
+      "qualification": "BCA",
+      "id": 10
+    },
+    {
+      "courceName": "MERN Stack",
+      "name": "PALLAB MONDAL",
+      "email": "pallab@gmail.com",
+      "phone": "7825124578",
+      "qualification": "afvzzfvzv",
+      "id": 11
     }
   ],
   "courseQuestions": [
