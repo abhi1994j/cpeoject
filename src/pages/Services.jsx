@@ -40,7 +40,7 @@ function services() {
               <div className="col-lg-3 col-md-4">
                 <div className="icon-box">
                   <i className="ri-store-line" style={{ color: "#ffbb2c" }}></i>
-                  <h3><a href="">Canteen Fesility</a></h3>
+                  <h3><a href="">Canteen Facility</a></h3>
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
@@ -52,7 +52,7 @@ function services() {
               <div className="col-lg-3 col-md-4 mt-4 mt-md-0">
                 <div className="icon-box">
                   <i className="ri-calendar-todo-line" style={{ color: "#e80368" }}></i>
-                  <h3><a href="">Swiming Pool</a></h3>
+                  <h3><a href="">Swimming Pool</a></h3>
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 mt-4 mt-lg-0">
@@ -64,13 +64,13 @@ function services() {
               <div className="col-lg-3 col-md-4 mt-4">
                 <div className="icon-box">
                   <i className="ri-database-2-line" style={{ color: "#47aeff" }}></i>
-                  <h3><a href="">Separate Girls & Boys Hostel available</a></h3>
+                  <h3><a href="">Separate Girls & Boys hostel available</a></h3>
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 mt-4">
                 <div className="icon-box">
                   <i className="ri-gradienter-line" style={{ color: "#ffa76e" }}></i>
-                  <h3><a href="">Antiragging cell</a></h3>
+                  <h3><a href="">Anti-ragging cell</a></h3>
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 mt-4">
@@ -94,7 +94,7 @@ function services() {
               <div className="col-lg-3 col-md-4 mt-4">
                 <div className="icon-box">
                   <i className="ri-disc-line" style={{ color: "#b20969" }}></i>
-                  <h3><a href="">Statoion and Bus depot around 3km from Campus</a></h3>
+                  <h3><a href="">Station and Bus depot around 3km from Campus</a></h3>
                 </div>
               </div>
               <div className="col-lg-3 col-md-4 mt-4">

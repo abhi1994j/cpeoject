@@ -21,7 +21,7 @@ function HomeServices() {
 
                     <div className="section-title">
                         <h2>Services</h2>
-                        <p>Here are the services to provide our Students</p>
+                        <p>Here are the services to provide our students</p>
                     </div>
                     <div className='row'>
                         {

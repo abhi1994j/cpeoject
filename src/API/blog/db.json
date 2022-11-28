@@ -8,7 +8,7 @@
             "date":"15-04-2021",
             "catagories":"general",
             "tags":"javascript",
-            "image":"assets/img/blog-1.jpg",
+            "image":"assets/img/blog.jpg",
             "id":1
         },
         {
@@ -19,7 +19,7 @@
             "date":"24-11-2020",
             "catagories":"education",
             "tags":"react",
-            "image":"assets/img/blog-2.jpg",
+            "image":"assets/img/blogs.jpg",
             "id":2
         },
         {
@@ -30,7 +30,7 @@
             "date":"13-04-2022",
             "catagories":"placement",
             "tags":"angular",
-            "image":"assets/img/blog-3.jpg",
+            "image":"assets/img/blogss.jpg",
             "id":3
         },
         {
@@ -41,7 +41,7 @@
             "date":"15-04-2021",
             "catagories":"placement",
             "tags":"javascript",
-            "image":"assets/img/blog-4.jpg",
+            "image":"assets/img/b.jpeg",
             "id":4
         },
         {
@@ -52,7 +52,7 @@
             "date":"15-04-2021",
             "catagories":"design",
             "tags":"react",
-            "image":"assets/img/blog-2.jpg",
+            "image":"assets/img/blog.jpg",
             "id":5
         },
         {
@@ -63,7 +63,7 @@
             "date":"15-04-2021",
             "catagories":"general",
             "tags":"python",
-            "image":"assets/img/blog-5.jpg",
+            "image":"assets/img/blogs.jpg",
             "id":6
         },
         {
@@ -74,7 +74,7 @@
             "date":"15-04-2021",
             "catagories":"education",
             "tags":"javascript",
-            "image":"assets/img/blog-1.jpg",
+            "image":"assets/img/blogss.jpg",
             "id":7
         },
         {
@@ -85,7 +85,7 @@
             "date":"15-04-2021",
             "catagories":"placement",
             "tags":"react",
-            "image":"assets/img/blog-3.jpg",
+            "image":"assets/img/b.jpeg",
             "id":8
         },
         {
@@ -96,7 +96,7 @@
             "date":"15-04-2021",
             "catagories":"general",
             "tags":"angular",
-            "image":"assets/img/blog-5.jpg",
+            "image":"assets/img/blog.jpg",
             "id":9
         },
         {
@@ -106,7 +106,7 @@
             "name":"Kunal Pandey",
             "date":"15-04-2021",
             "catagories":"placement",
-            "image":"assets/img/blog-2.jpg",
+            "image":"assets/img/blogs.jpg",
             "tags":"python",
             "id":10
         },
@@ -118,7 +118,7 @@
             "date":"15-04-2021",
             "catagories":"design",
             "tags":"javascript",
-            "image":"assets/img/blog-4.jpg",
+            "image":"assets/img/blogss.jpg",
             "id":11
         },
         {
@@ -129,7 +129,7 @@
             "date":"15-04-2021",
             "catagories":"general",
             "tags":"node",
-            "image":"assets/img/blog-3.jpg",
+            "image":"assets/img/b.jpeg",
             "id":12
         },
         {
@@ -140,7 +140,7 @@
             "date":"15-04-2021",
             "catagories":"education",
             "tags":"laravel",
-            "image":"assets/img/blog-5.jpg",
+            "image":"assets/img/blog.jpg",
             "id":13
         },
         {
@@ -151,7 +151,7 @@
             "date":"15-04-2021",
             "catagories":"general",
             "tags":"javascript",
-            "image":"assets/img/blog-1.jpg",
+            "image":"assets/img/blogs.jpg",
             "id":14
         },
         {
@@ -162,7 +162,7 @@
             "date":"15-04-2021",
             "catagories":"placement",
             "tags":"node",
-            "image":"assets/img/blog-2.jpg",
+            "image":"assets/img/blogss.jpg",
             "id":15
         },
         {
@@ -173,7 +173,7 @@
             "date":"15-04-2021",
             "catagories":"general",
             "tags":"laravel",
-            "image":"assets/img/blog-5.jpg",
+            "image":"assets/img/b.jpeg",
             "id":16
         },
         {
@@ -184,7 +184,7 @@
             "date":"15-04-2021",
             "catagories":"creative",
             "tags":"javascript",
-            "image":"assets/img/blog-4.jpg",
+            "image":"assets/img/blog.jpg",
             "id":17
         },
         {
@@ -195,7 +195,7 @@
             "date":"15-04-2021",
             "catagories":"general",
             "tags":"node",
-            "image":"assets/img/blog-3.jpg",
+            "image":"assets/img/blogs.jpg",
             "id":18
         },
         {
@@ -206,7 +206,7 @@
             "date":"15-04-2021",
             "catagories":"general",
             "tags":"python",
-            "image":"assets/img/blog-1.jpg",
+            "image":"assets/img/blogss.jpg",
             "id":19
         },
         {
@@ -217,7 +217,7 @@
             "date":"15-04-2021",
             "catagories":"creative",
             "tags":"laravel",
-            "image":"assets/img/blog-2.jpg",
+            "image":"assets/img/b.jpeg",
             "id":20
         },
         {
@@ -228,7 +228,7 @@
             "date":"15-04-2021",
             "catagories":"general",
             "tags":"javascript",
-            "image":"assets/img/blog-3.jpg",
+            "image":"assets/img/blog.jpg",
             "id":21
         }
     ]

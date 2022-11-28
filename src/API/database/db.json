@@ -3,20 +3,20 @@
     {
       "id": 1,
       "name": "Mukesh Ambani",
-      "role": "Founder",
+      "role": "Chairman and Managing Director of Reliance Industries Limited",
       "speech": "Some people don't like change, but you need to embrace change if the alternative is disaster.",
       "image": "assets/img/testimonials/ambani.jpeg"
     },
     {
       "id": 2,
       "name": "Aditya Birla",
-      "role": "CEO",
+      "role": "CEO & Founder of Aditya Birla Group",
       "speech": "When I was in college, I wanted to be involved in things that would change the world.",
       "image": "assets/img/testimonials/birla.jpg"
     },
     {
       "id": 3,
-      "name": "Mamta Krishnamurty",
+      "name": "Mamata Krishnamurty",
       "role": "Store owner",
       "speech": "I think life on Earth must be about more than just solving problems ... It's got to be something inspiring, even if it is vicarious.",
       "image": "assets/img/testimonials/maxresdefault.jpg"
@@ -24,21 +24,21 @@
     {
       "id": 4,
       "name": "Ratan Tata",
-      "role": "Freelancer",
+      "role": "Chairman of the Tata Group",
       "speech": "Do what you can, with what you have, where you are.",
       "image": "assets/img/testimonials/tata.jpeg"
     },
     {
       "id": 5,
       "name": "Uday Kotak",
-      "role": "Entrepreneur",
+      "role": "CEO of Kotak Mahindra Bank",
       "speech": "It's never too late to be what you might've been.",
       "image": "assets/img/testimonials/Uday-Kotak.jpg"
     },
     {
       "id": 6,
       "name": "Vandana Luthra",
-      "role": "Store owner",
+      "role": "Indian entrepreneur and the founder of VLCC Health Care Ltd",
       "speech": "Trust yourself that you can do it and get it.",
       "image": "assets/img/testimonials/VandanaLuthra.png"
     }
@@ -215,25 +215,41 @@
       "id": 1,
       "image": "assets/img/team/hande.jpg",
       "name": "Hande Ercel",
-      "position": "Chief Executive Officer"
+      "position": "Chief Executive Officer",
+      "twitter":"https://twitter.com/handeercel",
+      "facebook":"https://www.facebook.com/HandeErcelcomtr/",
+      "instagram":"https://www.instagram.com/handemiyy/",
+      "linkedin":"https://tr.linkedin.com/in/hande-er%C3%A7el-0b6373214/en?trk=people-guest_people_search-card"
     },
     {
       "id": 2,
       "image": "assets/img/team/team-22.jpg",
       "name": "Allu Arjun",
-      "position": "Full Stack Devoloper"
+      "position": "Full Stack Devoloper",
+      "twitter":"https://twitter.com/alluarjun?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      "facebook":"https://www.facebook.com/AlluArjun/",
+      "instagram":"https://www.instagram.com/alluarjunonline/?hl=en",
+      "linkedin":"https://in.linkedin.com/in/allu-arjun-a836b7116"
     },
     {
       "id": 3,
       "image": "assets/img/team/team-33.jpg",
-      "name": "Prabhas",
-      "position": "Product Manager"
+      "name": "Prabhas Raju",
+      "position": "Product Manager",
+      "twitter":"https://twitter.com/prabhasraju",
+      "facebook":"https://www.facebook.com/ActorPrabhas/",
+      "instagram":"https://www.instagram.com/actorprabhas/",
+      "linkedin":"https://in.linkedin.com/in/actor-prabhas-60241541"
     },
     {
       "id": 4,
       "image": "assets/img/team/team-44.jpg",
       "name": "Rasmika Mandana",
-      "position": "Accountant"
+      "position": "Accountant",
+      "twitter":"https://twitter.com/iamRashmika?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      "facebook":"https://www.facebook.com/RashmikaMandanna/",
+      "instagram":"https://www.instagram.com/rashmika_mandanna/?hl=en",
+      "linkedin":"https://ae.linkedin.com/in/rashmika-mandanna-190085212?trk=people-guest_people_search-card"
     }
   ],
   "features": [

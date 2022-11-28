@@ -33,10 +33,10 @@ function Team() {
                                             <div className="member-img">
                                                 <img src={item.image} className="img-fluid" alt="" />
                                                 <div className="social">
-                                                    <a href=""><i className="icofont-twitter"></i></a>
-                                                    <a href=""><i className="icofont-facebook"></i></a>
-                                                    <a href=""><i className="icofont-instagram"></i></a>
-                                                    <a href=""><i className="icofont-linkedin"></i></a>
+                                                    <a href={item.twitter}><i className="icofont-twitter"></i></a>
+                                                    <a href={item.facebook}><i className="icofont-facebook"></i></a>
+                                                    <a href={item.instagram}><i className="icofont-instagram"></i></a>
+                                                    <a href={item.linkedin}><i className="icofont-linkedin"></i></a>
                                                 </div>
                                             </div>
                                             <div className="member-info">
