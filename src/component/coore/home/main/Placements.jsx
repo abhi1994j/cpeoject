@@ -29,6 +29,7 @@ function Placements()  {
                             PlacementData.map((item) =>
                                 <div className="col-lg-3 col-md-6" key={item.id}>
                                     <div className="box">
+                                    <img src={item.image} className="testimonial-img" alt="" />
                                         <h3>{item.studentName}</h3>
                                         <ul>
                                             <li><strong>Company: </strong>{item.company}</li>
@@ -37,7 +38,6 @@ function Placements()  {
                                         </ul>
                                     </div>
                                 </div>
-
                             )
                         }
                     </div>
