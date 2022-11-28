@@ -72,6 +72,13 @@
       "subject": "history",
       "message": "sexy boy",
       "id": 2
+    },
+    {
+      "name": "Abhishek",
+      "email": "gadot@gal23gmail.com",
+      "subject": "history",
+      "message": "bcbngnmjmjgjbh jm bghjb",
+      "id": 3
     }
   ],
   "services": [
@@ -124,6 +131,36 @@
       "color": "icon-box iconbox-teal"
     }
   ],
+  "placements": [
+    {
+      "id": 1,
+      "studentName": "Arup Kothar",
+      "company": "Flipkart",
+      "package": "12Lpa",
+      "comments": "best faculty in the world"
+    },
+    {
+      "id": 2,
+      "studentName": "Souvik Mukherjee",
+      "company": "Amazon",
+      "package": "20Lpa",
+      "comments": "best campus fesility i have ever seen"
+    },
+    {
+      "id": 3,
+      "studentName": "Susovon",
+      "company": "Tesla",
+      "package": "18Lpa",
+      "comments": "professors are so helpful"
+    },
+    {
+      "id": 4,
+      "studentName": "Pradipta Paul",
+      "company": "Google",
+      "package": "30Lpa",
+      "comments": "best in india"
+    }
+  ],
   "clients": [
     {
       "id": 1,
@@ -171,36 +208,6 @@
       "data7": "Tie ups with different organization, foreign Universities. various Chamber of Commerce and trade bodies.",
       "data8": "Read More",
       "data9": "Read More"
-    }
-  ],
-  "placements": [
-    {
-      "id": 1,
-      "studentName": "Arup Kothar",
-      "company": "Flipkart",
-      "package": "12Lpa",
-      "comments": "best faculty in the world"
-    },
-    {
-      "id": 2,
-      "studentName": "Souvik Mukherjee",
-      "company": "Amazon",
-      "package": "20Lpa",
-      "comments": "best campus fesility i have ever seen"
-    },
-    {
-      "id": 3,
-      "studentName": "Susovon",
-      "company": "Tesla",
-      "package": "18Lpa",
-      "comments": "professors are so helpful"
-    },
-    {
-      "id": 4,
-      "studentName": "Pradipta Paul",
-      "company": "Google",
-      "package": "30Lpa",
-      "comments": "best in india"
     }
   ],
   "team": [

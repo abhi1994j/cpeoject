@@ -10,9 +10,11 @@ function AboutCompany() {
         setClientData(res.data);
         console.log(res.data);
     }
+
     useEffect(() => {
         getClientData();
     }, [])
+    
     return (
         <>
             <section id="clients" className="clients">
