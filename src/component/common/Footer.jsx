@@ -24,22 +24,22 @@ export default function Footer() {
               <div className="col-lg-2 col-md-6 footer-links">
                 <h4>Useful Links</h4>
                 <ul>
-                  <li><i className="bx bx-chevron-right"></i> <a href="">Home</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="">About us</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="">Services</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="">Terms of service</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="">Privacy policy</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a>Home</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a>About us</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a>Services</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a>Terms of service</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a>Privacy policy</a></li>
                 </ul>
               </div>
 
               <div className="col-lg-3 col-md-6 footer-links">
                 <h4>Our Services</h4>
                 <ul>
-                  <li><i className="bx bx-chevron-right"></i> <a href="">Web Design</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="">Web Development</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="">Product Management</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="">Marketing</a></li>
-                  <li><i className="bx bx-chevron-right"></i> <a href="">Graphic Design</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a>Web Design</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a>Web Development</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a>Product Management</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a>Marketing</a></li>
+                  <li><i className="bx bx-chevron-right"></i> <a>Graphic Design</a></li>
                 </ul>
               </div>
 
@@ -66,17 +66,17 @@ export default function Footer() {
             </div>
           </div>
           <div className="social-links text-center text-md-right pt-3 pt-md-0">
-            <a href="" className="twitter"><i className="bx bxl-twitter"></i></a>
-            <a href="" className="facebook"><i className="bx bxl-facebook"></i></a>
-            <a href="" className="instagram"><i className="bx bxl-instagram"></i></a>
-            <a href="" className="google-plus"><i className="bx bxl-skype"></i></a>
-            <a href="" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+            <a className="twitter"><i className="bx bxl-twitter"></i></a>
+            <a className="facebook"><i className="bx bxl-facebook"></i></a>
+            <a className="instagram"><i className="bx bxl-instagram"></i></a>
+            <a className="google-plus"><i className="bx bxl-skype"></i></a>
+            <a className="linkedin"><i className="bx bxl-linkedin"></i></a>
           </div>
         </div>
       </footer>
 
 
-      {/* <a href="" className="back-to-top"><i className="icofont-simple-up"></i></a> */}
+      {/* <a className="back-to-top"><i className="icofont-simple-up"></i></a> */}
 
     </>
   )

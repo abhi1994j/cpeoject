@@ -1,8 +1,6 @@
 import React from 'react'
 import AboutUs from './AboutUs'
-import Client from './Client'
 import HomeServices from './HomeServices'
-
 function Main() {
   return (
     <>
@@ -10,7 +8,7 @@ function Main() {
 
           <AboutUs/>
           <HomeServices/>
-          <Client/>
+          
           
       </main >
     </>

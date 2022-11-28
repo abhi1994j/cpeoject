@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutUs from '../../../component/coore/home/main/AboutUs';
-import Client from '../../../component/coore/home/main/Client';
+import AboutCompany from './AboutCompany';
 import AboutBread from './AboutBread';
 import AboutTeam from './AboutTeam';
 
@@ -15,7 +15,7 @@ function About() {
                 {/* <!-- ======= Our Team Section ======= --> */}
                 <AboutTeam />
                 {/* <!-- ======= Our Clients Section ======= --> */}
-                <Client />
+                <AboutCompany />
             </main>
 
         </>
