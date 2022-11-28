@@ -1,6 +1,7 @@
 import React from 'react'
 import AboutUs from './AboutUs'
 import HomeServices from './HomeServices'
+import PlacedStudent from './PlacedStudent'
 function Main() {
   return (
     <>
@@ -8,7 +9,7 @@ function Main() {
 
           <AboutUs/>
           <HomeServices/>
-          
+          <PlacedStudent/>
           
       </main >
     </>

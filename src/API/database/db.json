@@ -108,6 +108,40 @@
       "color": "icon-box iconbox-teal"
     }
   ],
+  "placements":[
+    {
+      "id":1,
+      "studentName":"Abhishek Bannerjee",
+      "company":"Flipkart",
+      "package":"50Lpa",
+      "image":"assets/img/placement/abhishek.PNG",
+      "comments":"best faculty in the world"
+    },
+    {
+      "id":2,
+      "studentName":"Souvik Mukherjee",
+      "company":"Amazon",
+      "package":"20Lpa",
+      "image":"assets/img/placement/sauvik.PNG",
+      "comments":"best campus fesility i have ever seen"
+    },
+    {
+      "id":3,
+      "studentName":"Pallab Mondal",
+      "company":"Tesla",
+      "package":"18Lpa",
+      "image":"assets/img/placement/pallab.PNG",
+      "comments":"professors are so helpful"
+    },
+    {
+      "id":4,
+      "studentName":"Susovan Mondal",
+      "company":"Google",
+      "package":"30Lpa",
+      "image":"assets/img/placement/susavan.PNG",
+      "comments":"best in india"
+    }
+  ],
   "clients": [
     {
       "id": 1,
