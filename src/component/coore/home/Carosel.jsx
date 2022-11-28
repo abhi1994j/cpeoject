@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 function Carosel() {
     return (
         <>
             <section id="hero">
                 <div id="heroCarousel" className="carousel slide carousel-fade" data-ride="carousel">
-
+            
                     <div className="carousel-inner" role="listbox">
 
 

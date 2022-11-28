@@ -7,6 +7,7 @@ function AboutUs() {
 
   const getAboutData = async () => {
     const res = await getApiData('about');
+    // console.log('about',res);
     setAboutData(res.data)
   }
 
