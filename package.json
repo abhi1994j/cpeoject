@@ -16,7 +16,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",
-    "react-router-dom": "^6.4.1",
+    "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
     "redux": "^4.2.0",
     "web-vitals": "^2.1.4"
@@ -28,11 +28,11 @@
     "eject": "react-scripts eject",
     "json-server": "json-server --watch src/API/database/db.json --host 127.0.0.1 --port 3005",
     "json-server-blog": "json-server --watch src/API/blog/db.json --host 127.0.0.1 --port 3004",
-    "json-server-auth":" json-server --watch src/API/auth/db.json --host 127.0.0.1 --port 3003",
+    "json-server-auth": " json-server --watch src/API/auth/db.json --host 127.0.0.1 --port 3003",
     "dev": "concurrently \"npm start\" \"npm run json-server\" \"npm run json-server-blog\" \"npm run json-server-auth\""
   },
   "eslintConfig": {
-    "extends": [ 
+    "extends": [
       "react-app",
       "react-app/jest"
     ]

@@ -2,45 +2,45 @@
   "testimonials": [
     {
       "id": 1,
-      "name": "Saul Goodman",
-      "role": "CEO & Founder",
+      "name": "Mukesh Ambani",
+      "role": "Founder",
       "speech": "Some people don't like change, but you need to embrace change if the alternative is disaster.",
-      "image": "assets/img/testimonials/testimonials-1.jpg"
+      "image": "assets/img/testimonials/ambani.jpeg"
     },
     {
       "id": 2,
-      "name": "Sara Wilsson",
-      "role": "Designer",
+      "name": "Aditya Birla",
+      "role": "CEO",
       "speech": "When I was in college, I wanted to be involved in things that would change the world.",
-      "image": "assets/img/testimonials/testimonials-2.jpg"
+      "image": "assets/img/testimonials/birla.jpg"
     },
     {
       "id": 3,
-      "name": "Jena Karlis",
+      "name": "Mamta Krishnamurty",
       "role": "Store owner",
       "speech": "I think life on Earth must be about more than just solving problems ... It's got to be something inspiring, even if it is vicarious.",
-      "image": "assets/img/testimonials/testimonials-3.jpg"
+      "image": "assets/img/testimonials/maxresdefault.jpg"
     },
     {
       "id": 4,
-      "name": "Matt Brandon",
+      "name": "Ratan Tata",
       "role": "Freelancer",
       "speech": "Do what you can, with what you have, where you are.",
-      "image": "assets/img/testimonials/testimonials-4.jpg"
+      "image": "assets/img/testimonials/tata.jpeg"
     },
     {
       "id": 5,
-      "name": "John Larson",
+      "name": "Uday Kotak",
       "role": "Entrepreneur",
       "speech": "It's never too late to be what you might've been.",
-      "image": "assets/img/testimonials/testimonials-5.jpg"
+      "image": "assets/img/testimonials/Uday-Kotak.jpg"
     },
     {
       "id": 6,
-      "name": "Emily Harison",
+      "name": "Vandana Luthra",
       "role": "Store owner",
       "speech": "Trust yourself that you can do it and get it.",
-      "image": "assets/img/testimonials/testimonials-6.jpg"
+      "image": "assets/img/testimonials/VandanaLuthra.png"
     }
   ],
   "about": [
@@ -56,6 +56,22 @@
       "features1": "Integrity",
       "features2": "Honesty",
       "features3": "Creativity"
+    }
+  ],
+  "contactData": [
+    {
+      "name": "Abhishek",
+      "email": "abhibaban4@gmail.com",
+      "subject": "history",
+      "message": "bvgb cgbcbfcgbfchn fg",
+      "id": 1
+    },
+    {
+      "name": "Abhishek",
+      "email": "baban4@gmail.com",
+      "subject": "history",
+      "message": "sexy boy",
+      "id": 2
     }
   ],
   "services": [
@@ -111,180 +127,180 @@
   "clients": [
     {
       "id": 1,
-      "logo": "assets/img/clients/client-1.png"
+      "logo": "assets/img/clients/tcs.png"
     },
     {
       "id": 2,
-      "logo": "assets/img/clients/client-2.png"
+      "logo": "assets/img/clients/google.png"
     },
     {
       "id": 3,
-      "logo": "assets/img/clients/client-3.png"
+      "logo": "assets/img/clients/amazon.png"
     },
     {
       "id": 4,
-      "logo": "assets/img/clients/client-4.png"
+      "logo": "assets/img/clients/webs.jpg"
     },
     {
       "id": 5,
-      "logo": "assets/img/clients/client-5.png"
+      "logo": "assets/img/clients/deloitte.png"
     },
     {
       "id": 6,
-      "logo": "assets/img/clients/client-6.png"
+      "logo": "assets/img/clients/flipkart.png"
     },
     {
       "id": 7,
-      "logo": "assets/img/clients/client-7.png"
+      "logo": "assets/img/clients/Cognizant.png"
     },
     {
       "id": 8,
-      "logo": "assets/img/clients/client-8.png"
+      "logo": "assets/img/clients/wipro.png"
     }
   ],
-  "carousel":[
+  "carousel": [
     {
-        "id":1,
-        "data": "Welcome to" ,
-        "data1":"JIS Group",
-        "data2":"JIS Group Educational Initiatives - the largest educational conglomerate of Eastern India with 37 Institutions, 170 programmes and 39,000 students began its journey 24 years back. The journey, though not easy, has been quite a successful one. JIS University was established through the Legislative Act of the Government of West Bengal, viz. JIS University Act, 2014 (West Bengal Act XXII of 2014) that came into force in February, 2015.",
-        "data3":"Read More",
-        "data4":"OUR COURSES",
-        "data5":"We provide instructions,teaching, training and research in specialized fields of Science,Engineering & Technology, Pharmacy, Management, Law, Education and Hospitality",
-        "data6":"ALLIANCE & PARTNERSHIPS",
-        "data7":"Tie ups with different organization, foreign Universities. various Chamber of Commerce and trade bodies.",
-        "data8":"Read More",
-        "data9":"Read More"
+      "id": 1,
+      "data": "Welcome to",
+      "data1": "JIS Group",
+      "data2": "JIS Group Educational Initiatives - the largest educational conglomerate of Eastern India with 37 Institutions, 170 programmes and 39,000 students began its journey 24 years back. The journey, though not easy, has been quite a successful one. JIS University was established through the Legislative Act of the Government of West Bengal, viz. JIS University Act, 2014 (West Bengal Act XXII of 2014) that came into force in February, 2015.",
+      "data3": "Read More",
+      "data4": "OUR COURSES",
+      "data5": "We provide instructions,teaching, training and research in specialized fields of Science,Engineering & Technology, Pharmacy, Management, Law, Education and Hospitality",
+      "data6": "ALLIANCE & PARTNERSHIPS",
+      "data7": "Tie ups with different organization, foreign Universities. various Chamber of Commerce and trade bodies.",
+      "data8": "Read More",
+      "data9": "Read More"
     }
   ],
-  "placements":[
+  "placements": [
     {
-      "id":1,
-      "studentName":"Arup Kothar",
-      "company":"Flipkart",
-      "package":"12Lpa",
-      "comments":"best faculty in the world"
+      "id": 1,
+      "studentName": "Arup Kothar",
+      "company": "Flipkart",
+      "package": "12Lpa",
+      "comments": "best faculty in the world"
     },
     {
-      "id":2,
-      "studentName":"Souvik Mukherjee",
-      "company":"Amazon",
-      "package":"20Lpa",
-      "comments":"best campus fesility i have ever seen"
+      "id": 2,
+      "studentName": "Souvik Mukherjee",
+      "company": "Amazon",
+      "package": "20Lpa",
+      "comments": "best campus fesility i have ever seen"
     },
     {
-      "id":3,
-      "studentName":"Susovon",
-      "company":"Tesla",
-      "package":"18Lpa",
-      "comments":"professors are so helpful"
+      "id": 3,
+      "studentName": "Susovon",
+      "company": "Tesla",
+      "package": "18Lpa",
+      "comments": "professors are so helpful"
     },
     {
-      "id":4,
-      "studentName":"Pradipta Paul",
-      "company":"Google",
-      "package":"30Lpa",
-      "comments":"best in india"
+      "id": 4,
+      "studentName": "Pradipta Paul",
+      "company": "Google",
+      "package": "30Lpa",
+      "comments": "best in india"
     }
   ],
   "team": [
     {
-      "id":1,
-      "image":"assets/img/team/team-11.jpg",
-      "name":"Hande Ercel",
-      "position":"Chief Executive Officer"
+      "id": 1,
+      "image": "assets/img/team/hande.jpg",
+      "name": "Hande Ercel",
+      "position": "Chief Executive Officer"
     },
     {
-      "id":2,
-      "image":"assets/img/team/team-2.jpg",
-      "name":"Allu Arjun",
-      "position":"Full Stack Devoloper"
+      "id": 2,
+      "image": "assets/img/team/team-22.jpg",
+      "name": "Allu Arjun",
+      "position": "Full Stack Devoloper"
     },
     {
-      "id":3,
-      "image":"assets/img/team/team-3.jpg",
-      "name":"Prabhas",
-      "position":"Product Manager"
+      "id": 3,
+      "image": "assets/img/team/team-33.jpg",
+      "name": "Prabhas",
+      "position": "Product Manager"
     },
     {
-      "id":4,
-      "image":"assets/img/team/team-4.jpg",
-      "name":"Rasmika Mandana",
-      "position":"Accountant"
+      "id": 4,
+      "image": "assets/img/team/team-44.jpg",
+      "name": "Rasmika Mandana",
+      "position": "Accountant"
     }
   ],
   "features": [
     {
-      "id":1,
-      "color":"#ffbb2c",
-      "class":"ri-store-line",
-      "name":"Lorem Ipsum"
+      "id": 1,
+      "color": "#ffbb2c",
+      "class": "ri-store-line",
+      "name": "Lorem Ipsum"
     },
     {
-      "id":2,
-      "color":"#5578ff",
-      "class":"ri-bar-chart-box-line",
-      "name":"Dolor Sitema"
+      "id": 2,
+      "color": "#5578ff",
+      "class": "ri-bar-chart-box-line",
+      "name": "Dolor Sitema"
     },
     {
-      "id":3,
-      "color":"#e80368",
-      "class":"ri-calendar-todo-line",
-      "name":"Sed perspiciatis"
+      "id": 3,
+      "color": "#e80368",
+      "class": "ri-calendar-todo-line",
+      "name": "Sed perspiciatis"
     },
     {
-      "id":4,
-      "color":"#e361ff",
-      "class":"ri-paint-brush-line",
-      "name":"Magni Dolores"
+      "id": 4,
+      "color": "#e361ff",
+      "class": "ri-paint-brush-line",
+      "name": "Magni Dolores"
     },
     {
-      "id":5,
-      "color":"#47aeff",
-      "class":"ri-database-2-line",
-      "name":"Nemo Enim"
+      "id": 5,
+      "color": "#47aeff",
+      "class": "ri-database-2-line",
+      "name": "Nemo Enim"
     },
     {
-      "id":6,
-      "color":"#ffa76e",
-      "class":"ri-gradienter-line",
-      "name":"Eiusmod Tempor"
+      "id": 6,
+      "color": "#ffa76e",
+      "class": "ri-gradienter-line",
+      "name": "Eiusmod Tempor"
     },
     {
-      "id":7,
-      "color":"#11dbcf",
-      "class":"ri-file-list-3-line",
-      "name":"Midela Teren"
+      "id": 7,
+      "color": "#11dbcf",
+      "class": "ri-file-list-3-line",
+      "name": "Midela Teren"
     },
     {
-      "id":8,
-      "color":"#4233ff",
-      "class":"ri-price-tag-2-line",
-      "name":"Pira Neve"
+      "id": 8,
+      "color": "#4233ff",
+      "class": "ri-price-tag-2-line",
+      "name": "Pira Neve"
     },
     {
-      "id":9,
-      "color":"#b2904f",
-      "class":"ri-anchor-line",
-      "name":"Dirada Pack"
+      "id": 9,
+      "color": "#b2904f",
+      "class": "ri-anchor-line",
+      "name": "Dirada Pack"
     },
     {
-      "id":10,
-      "color":"#b20969",
-      "class":"ri-disc-line",
-      "name":"Moton Ideal"
+      "id": 10,
+      "color": "#b20969",
+      "class": "ri-disc-line",
+      "name": "Moton Ideal"
     },
     {
-      "id":11,
-      "color":"#ff5828",
-      "class":"ri-base-station-line",
-      "name":"Verdo Park"
+      "id": 11,
+      "color": "#ff5828",
+      "class": "ri-base-station-line",
+      "name": "Verdo Park"
     },
     {
-      "id":12,
-      "color":"#29cc61",
-      "class":"ri-fingerprint-line",
-      "name":"Flavor Nivelanda"
+      "id": 12,
+      "color": "#29cc61",
+      "class": "ri-fingerprint-line",
+      "name": "Flavor Nivelanda"
     }
   ],
   "courseDetails": [

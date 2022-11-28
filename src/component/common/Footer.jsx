@@ -45,7 +45,7 @@ export default function Footer() {
 
               <div className="col-lg-4 col-md-6 footer-newsletter">
                 <h4>Join Our Newsletter</h4>
-                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                <p>Receive news and best course offers by email from JIS University.You can unsubscribe whenever you want, it is totally free</p>
                 <form action="" method="post">
                   <input type="email" name="email" /><input type="submit" value="Subscribe" />
                 </form>
@@ -62,7 +62,7 @@ export default function Footer() {
               &copy; Copyright <strong><span>JISGROUP</span></strong>. All Rights Reserved
             </div>
             <div className="credits">
-              Designed by <a href="https://bootstrapmade.com/">MAPS</a>
+              Designed by <a href="https://bootstrapmade.com/">APS</a>
             </div>
           </div>
           <div className="social-links text-center text-md-right pt-3 pt-md-0">
