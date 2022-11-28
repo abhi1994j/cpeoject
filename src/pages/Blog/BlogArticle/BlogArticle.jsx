@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { usePagination } from '../../../helper/PaginationHook';
 import { filteredAction, getArtData } from '../../../Reducers/BlogReducer/BlogArtRed';
 import { Pagination } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 const BlogArticle = () => {
   const { artData, filteredData } = useSelector(state => state.BlogArtRed);
@@ -59,15 +60,15 @@ const BlogArticle = () => {
               </div>
 
               <h2 className="entry-title">
-                <a href="blog-single.html">{item.title}</a>
+                <Link to={`/BlogReadMore/${item.id}`}>{item.title}</Link>
               </h2>
 
               <div className="entry-meta">
                 <ul>
-                  <li className="d-flex align-items-center"><i className="icofont-user"></i> <a href="blog-single.html">{item.name}</a></li>
-                  <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a href="blog-single.html"><time dateTime="2020-01-01">{item.date}</time></a></li>
-                  <li className="d-flex align-items-center"><i className="fa-solid fa-tag"></i> <a href="blog-single.html">{item.tags}</a></li>
-                  <li className="d-flex align-items-center"><i className="fa-brands fa-codepen"></i> <a href="blog-single.html">{item.catagories}</a></li>
+                  <li className="d-flex align-items-center"><i className="icofont-user"></i> <a>{item.name}</a></li>
+                  <li className="d-flex align-items-center"><i className="icofont-wall-clock"></i> <a>{item.date}</a></li>
+                  <li className="d-flex align-items-center"><i className="fa-solid fa-tag"></i> <a>{item.tags}</a></li>
+                  <li className="d-flex align-items-center"><i className="fa-brands fa-codepen"></i> <a>{item.catagories}</a></li>
                 </ul>
               </div>
 
@@ -76,7 +77,7 @@ const BlogArticle = () => {
                   {item.body}
                 </p>
                 <div className="read-more">
-                  <a href="blog-single.html">Read More</a>
+                  <Link to={`/blogReadMore/${item.id}`}>Read More</Link>
                 </div>
               </div>
 

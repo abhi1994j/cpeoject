@@ -28,10 +28,11 @@
     "eject": "react-scripts eject",
     "json-server": "json-server --watch src/API/database/db.json --host 127.0.0.1 --port 3005",
     "json-server-blog": "json-server --watch src/API/blog/db.json --host 127.0.0.1 --port 3004",
-    "dev": "concurrently \"npm start\" \"npm run json-server\" \"npm run json-server-blog\""
+    "json-server-auth":" json-server --watch src/API/auth/db.json --host 127.0.0.1 --port 3003",
+    "dev": "concurrently \"npm start\" \"npm run json-server\" \"npm run json-server-blog\" \"npm run json-server-auth\""
   },
   "eslintConfig": {
-    "extends": [
+    "extends": [ 
       "react-app",
       "react-app/jest"
     ]

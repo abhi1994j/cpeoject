@@ -1,8 +1,8 @@
 import React from 'react'
 import AboutUs from './AboutUs'
 import HomeServices from './HomeServices'
-import Placements from './Placements'
 
+import Placements from './Placements'
 function Main() {
   return (
     <>
