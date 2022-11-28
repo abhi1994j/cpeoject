@@ -76,7 +76,7 @@ export default function Footer() {
       </footer>
 
 
-      <a href="" className="back-to-top"><i className="icofont-simple-up"></i></a>
+      {/* <a href="" className="back-to-top"><i className="icofont-simple-up"></i></a> */}
 
     </>
   )

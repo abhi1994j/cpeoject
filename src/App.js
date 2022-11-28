@@ -14,6 +14,7 @@ import CourceApply from './pages/cources/CourceApply';
 import Registration from './pages/Authentication/Registration';
 import LoginPage from './pages/Authentication/LoginPage';
 import LogoutPage from './pages/Authentication/LogoutPage';
+import BlogReadMore from './pages/Blog/BlogArticle/BlogReadMore';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path='/login' element={<LoginPage/>}/>
           <Route path='/registration' element={<Registration/>}/>
           <Route path='/logout' element={<LogoutPage/>}/>
+          <Route path='/blogReadMore/:id' element={<BlogReadMore/>}/>
         </Routes>
         <Footer/>
       </Router>

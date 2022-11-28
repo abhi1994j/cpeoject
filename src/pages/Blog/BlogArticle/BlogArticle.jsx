@@ -4,6 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { usePagination } from '../../../helper/PaginationHook';
 import { filteredAction, getArtData } from '../../../Reducers/BlogReducer/BlogArtRed';
 import { Pagination } from '@mui/material';
+import { Link } from 'react-router-dom';
 
 const BlogArticle = () => {
   const { artData, filteredData } = useSelector(state => state.BlogArtRed);
@@ -59,7 +60,7 @@ const BlogArticle = () => {
               </div>
 
               <h2 className="entry-title">
-                <a href="blog-single.html">{item.title}</a>
+                <Link to={`/BlogReadMore/${item.id}`}>{item.title}</Link>
               </h2>
 
               <div className="entry-meta">
@@ -76,7 +77,7 @@ const BlogArticle = () => {
                   {item.body}
                 </p>
                 <div className="read-more">
-                  <a href="blog-single.html">Read More</a>
+                  <Link to={`/blogReadMore/${item.id}`}>Read More</Link>
                 </div>
               </div>
 
