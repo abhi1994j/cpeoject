@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useNavigate } from 'react-router-dom';
-import { getLoginData, setToken } from '../../Reducers/AuthRed';
+import { Link, useNavigate } from 'react-router-dom';
+import { getLoginData, setToken, setUserName } from '../../Reducers/AuthRed';
 
 const LoginPage = () => {
 
@@ -10,10 +10,10 @@ const LoginPage = () => {
     const [formValue, setFormValue] = useState(initValue);
     const [isLogin, setIsLogin] = useState(false);
     const [isToken, setIsToken] = useState(false);
-    const navigate = useNavigate();
 
     const { user, token } = useSelector(state => state.auth);
     const dispatch = useDispatch();
+    const navigate = useNavigate();
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -26,9 +26,11 @@ const LoginPage = () => {
             item.email === formValue.email && item.password === formValue.password
         )
 
+
         if (filtData.length !== 0) {
             dispatch(setToken(true));
-            navigate('/cources')
+            dispatch(setUserName(filtData[0].name))
+            navigate('/cources');
         }
         else {
             setIsLogin(true);
@@ -62,6 +64,24 @@ const LoginPage = () => {
 
     return (
         <>
+            {/* <!-- ======= Breadcrumbs ======= --> */}
+            <section id="breadcrumbs" className="breadcrumbs">
+                <div className="container">
+
+                    <div className="d-flex justify-content-between align-items-center">
+                        <h2>Login</h2>
+                        <ol>
+                            <li><Link to="/">Home</Link></li>
+                            <li>Login</li>
+                        </ol>
+                    </div>
+
+                </div>
+            </section>
+
+
+            {/* ==================== Login Part ================== */}
+
             <section id="contact" className="contact d-flex justify-content-center">
                 <div className="w-50  mt-5">
                     <center><h1 className='text-secondary'>Login Form</h1></center><br />
@@ -106,7 +126,7 @@ const LoginPage = () => {
                                 </div>
 
                                 <div className="text-center">
-                                    <button className='btn btn-success' onClick={handleClick}>Login</button>
+                                    <button className='btn btn-success m-2' onClick={handleClick}>Login</button>
                                 </div>
                             </form>
                         </div>

@@ -33,13 +33,13 @@ const BlogCatagories = () => {
                 <ul>
                     <li><button onClick={() => dispatch(filteredAction(artData))} className='btn btn-light'>All Catagory <span> ({artData.length}) </span></button></li>
 
-                    <li><button onClick={() => handleClick("general")} className='btn btn-light'>Software <span>({CatagoryNumber('general')})</span></button></li>
+                    <li><button onClick={() => handleClick("software")} className='btn btn-light'>Software <span>({CatagoryNumber('software')})</span></button></li>
 
-                    <li><button onClick={() => handleClick("placement")} className='btn btn-light'>Hardwarw <span>({CatagoryNumber('placement')})</span></button></li>
+                    <li><button onClick={() => handleClick("hardware")} className='btn btn-light'>Hardware <span>({CatagoryNumber('hardware')})</span></button></li>
 
                     <li><button onClick={() => handleClick("design")} className='btn btn-light'>Design <span>({CatagoryNumber('design')})</span></button></li>
 
-                    <li><button onClick={() => handleClick("creative")} className='btn btn-light'>Testing <span>({CatagoryNumber('creative')})</span></button></li>
+                    <li><button onClick={() => handleClick("testing")} className='btn btn-light'>Testing <span>({CatagoryNumber('testing')})</span></button></li>
 
                     <li><button onClick={() => handleClick("education")} className='btn btn-light'>Educaion <span>({CatagoryNumber('education')})</span></button></li>
                 </ul>

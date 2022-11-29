@@ -57,6 +57,9 @@ const CourceDetails = () => {
                 </div>
             </section>
 
+
+            {/* ============== Modal Part================= */}
+
             <CourceDetailsModal open={open} setOpen={setOpen} />
 
         </>

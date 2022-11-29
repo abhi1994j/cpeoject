@@ -9,7 +9,7 @@ function Team() {
     const getTeamData = async () => {
         const res = await getApiData('team');
         setTeamData(res.data);
-        console.log(res.data);
+        // console.log(res.data);
     }
     useEffect(() => {
         getTeamData();

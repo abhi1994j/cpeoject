@@ -1,9 +1,17 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { getLoginData } from '../../Reducers/AuthRed'
 
 function Navbar() {
-    const { token } = useSelector(state => state.auth);
+    const { userName, token } = useSelector(state => state.auth);
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(getLoginData())
+    }, []);
+
+    // console.log(userName.split(' ')[0].toUpperCase());
 
     return (
         <>
@@ -25,12 +33,23 @@ function Navbar() {
                             <li><Link to="/cources">Cources</Link></li>
                             <li><Link to="/blog">Blog</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
-                            <li><Link to="/login">LogIn</Link></li>
                             {!token
                                 ?
-                                <li><Link to="/registration">Register</Link></li>
+                                <>
+                                    <li><Link to="/login">LogIn</Link></li>
+                                    <li><Link to="/registration">Register</Link></li>
+                                </>
                                 :
-                                <li><Link to="/logout">Logout</Link></li>
+                                <li>
+                                    <Link className="dropdown-toggle " data-toggle="dropdown">
+                                        <i className="icofont-user"> </i>
+                                        {userName.split(' ')[0].toUpperCase()}
+                                    </Link>
+                                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        
+                                        <Link className='pl-3' to="/logout"> <i className="fa-solid fa-power-off"> </i> Logout </Link>
+                                    </div>
+                                </li>
                             }
                         </ul>
                     </nav>

@@ -50,7 +50,6 @@ const CourceApply = () => {
         if (values.phone.length === 0) {
             error.phone = 'Phone Number is Required'
         }
-
         else if (!/[0-9]/.test(values.phone)) {
             error.phone = 'Enter number'
         }
