@@ -19,9 +19,11 @@ function Navbar() {
 
                 <div className="container d-flex align-items-center">
 
-                    <h1 className="logo mr-auto"><Link to={'/'}><span>JIS</span>Group</Link></h1>
+                    {/* <h1 className="logo mr-auto"><Link to={'/'}><span>JIS</span>Group</Link></h1> */}
+                    <h1 className="logo mr-auto"><Link to={'/'}> <img className='w-100' style={{height:'35px'}} src="assets/img/logo/jis-logo.jpg" alt="" /> </Link></h1>
 
                     {/* -----------Navbar---------------- */}
+
                     <button type="button" className="mobile-nav-toggle d-lg-none"><i className="icofont-navigation-menu"></i></button>
 
                     <nav className="nav-menu d-none d-lg-block">
@@ -33,7 +35,8 @@ function Navbar() {
                             <li><Link to="/cources">Cources</Link></li>
                             <li><Link to="/blog">Blog</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
-                            {!token
+                            {
+                            !token
                                 ?
                                 <>
                                     <li><Link to="/login">LogIn</Link></li>
