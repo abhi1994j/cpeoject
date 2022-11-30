@@ -13,6 +13,13 @@
       "phone": "5785123588",
       "password": "124578",
       "id": 2
+    },
+    {
+      "name": "Abhishek",
+      "email": "abhibaban4@gmail.com",
+      "phone": "8910374010",
+      "password": "qwerty",
+      "id": 3
     }
   ]
 }
