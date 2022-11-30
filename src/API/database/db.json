@@ -87,6 +87,13 @@
       "subject": "history",
       "message": "deefe",
       "id": 4
+    },
+    {
+      "name": "Abhishek",
+      "email": "abhibaban4@gmail.com",
+      "subject": "history",
+      "message": "ngnnnvgnjmj",
+      "id": 5
     }
   ],
   "services": [
@@ -225,8 +232,8 @@
   "team": [
     {
       "id": 1,
-      "image": "assets/img/team/hande.jpg",
-      "name": "Hande Ercel",
+      "image": "assets/img/team/Anand Sharma.jpg",
+      "name": "Anand Sharma",
       "position": "Chief Executive Officer",
       "twitter": "https://twitter.com/handeercel",
       "facebook": "https://www.facebook.com/HandeErcelcomtr/",
@@ -235,8 +242,8 @@
     },
     {
       "id": 2,
-      "image": "assets/img/team/team-22.jpg",
-      "name": "Allu Arjun",
+      "image": "assets/img/team/Ravi Bishnoi.jpeg",
+      "name": "Ravi Bishnoi",
       "position": "Full Stack Devoloper",
       "twitter": "https://twitter.com/alluarjun?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
       "facebook": "https://www.facebook.com/AlluArjun/",
@@ -245,8 +252,8 @@
     },
     {
       "id": 3,
-      "image": "assets/img/team/team-33.jpg",
-      "name": "Prabhas Raju",
+      "image": "assets/img/team/Saina Nehwal.jpg",
+      "name": "Saina Nehwal",
       "position": "Product Manager",
       "twitter": "https://twitter.com/prabhasraju",
       "facebook": "https://www.facebook.com/ActorPrabhas/",
@@ -255,8 +262,8 @@
     },
     {
       "id": 4,
-      "image": "assets/img/team/team-44.jpg",
-      "name": "Rasmika Mandana",
+      "image": "assets/img/team/Sunil Nair.jpg",
+      "name": "Sunil Nair",
       "position": "Accountant",
       "twitter": "https://twitter.com/iamRashmika?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
       "facebook": "https://www.facebook.com/RashmikaMandanna/",
