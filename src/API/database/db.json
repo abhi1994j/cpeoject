@@ -142,9 +142,9 @@
   "placements": [
     {
       "id": 1,
-      "studentName": "Abhishek Bannerjee",
+      "studentName": "Abhishek Chatterjee",
       "company": "Flipkart",
-      "package": "12Lpa",
+      "package": "15Lpa",
       "comments": "best faculty in the world",
       "image": "assets/img/placement/abhishek.PNG"
     },
@@ -158,7 +158,7 @@
     },
     {
       "id": 3,
-      "studentName": "Susovon Mondal",
+      "studentName": "Phunsuk Wangru",
       "company": "Tesla",
       "package": "18Lpa",
       "comments": "professors are so helpful",
