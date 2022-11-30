@@ -1,0 +1,2 @@
+" Hello viewers, I am Abhishek Chjatterjee. So here we created React-js Project under guidence Raju Sir. We means me and my two batchmates Pallab Mondal and Souvik Mukherjee we both collaborately created this project. So basically We  created a university Website using json-server,concuurently, axios etc, so if u want to run the code just type in the 
+terminal(ctrl + " ` ") 'npm run dev' then Enter "
