@@ -14,7 +14,7 @@ function Cources() {
                     <div className="container">
 
                         <div className="d-flex justify-content-between align-items-center">
-                            <h2>Pricing</h2>
+                            <h2>Courses</h2>
                             <ol>
                                 <li><Link to="/">Home</Link></li>
                                 <li>Cources</li>

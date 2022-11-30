@@ -8,7 +8,7 @@ function AboutCompany() {
     const getClientData = async () => {
         const res = await getApiData('clients');
         setClientData(res.data);
-        console.log(res.data);
+        // console.log(res.data);
     }
 
     useEffect(() => {

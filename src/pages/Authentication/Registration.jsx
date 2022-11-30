@@ -2,13 +2,18 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { getLoginData } from '../../Reducers/AuthRed';
+import {ExistModal, RegistrationModal} from './RegistrationModal';
 
 const Registration = () => {
+
   const { user } = useSelector(state => state.auth);
 
-  const initValue = { email: '', password: '' };
+  const initValue = { name: '', email: '', phone: '', password: '' };
   const [formValue, setFormValue] = useState(initValue);
+  const [conPass, setConPass] = useState('');
+
   const [formError, setFormError] = useState({});
   const [isSubmit, setIsSubmit] = useState(false);
   const [isRegister, setIsRegister] = useState(false);
@@ -16,9 +21,13 @@ const Registration = () => {
   const dispatch = useDispatch();
 
 
-  const validate = (values) => {
+  const validate = (values, conpass) => {
     const error = {};
     const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+
+    if (!values.name.length) {
+      error.name = 'Name is Required';
+    }
 
     if (!values.email.length) {
       error.email = 'Email Address is Required';
@@ -27,12 +36,30 @@ const Registration = () => {
       error.email = 'Enter a valid Email'
     }
 
+    if (!values.phone.length) {
+      error.phone = 'Phone Number is Required';
+    }
+    else if (!/[0-9]/.test(values.phone)) {
+      error.phone = 'Enter number';
+    }
+    else if (values.phone.length !== 10) {
+      error.phone = 'Phone number should be of 10 numbers';
+    }
+
     if (!values.password.length) {
       error.password = 'Password is Required';
     }
     else if (values.password.length < 6 || values.password.length > 10) {
       error.password = 'Password is between 6 and 10 letters';
     }
+
+    if (!conpass.length) {
+      error.conpass = 'Confirm Password is Required';
+    }
+    else if (conpass !== values.password) {
+      error.conpass = 'Confirm Password does not match with Password';
+    }
+
     return error;
   }
 
@@ -47,7 +74,7 @@ const Registration = () => {
 
   const handleClick = (e) => {
     e.preventDefault();
-    setFormError(validate(formValue));
+    setFormError(validate(formValue, conPass));
     setIsSubmit(true);
   }
 
@@ -60,15 +87,9 @@ const Registration = () => {
       setFormValue(initValue);
 
       setIsRegister(true);
-      setTimeout(() => {
-        setIsRegister(false);
-      }, 2000);
     }
     else {
       setIsExist(true);
-      setTimeout(() => {
-        setIsExist(false);
-      }, 2000);
     }
   }
 
@@ -82,11 +103,29 @@ const Registration = () => {
 
   }, [formError]);
 
-  // console.log(formError);
+  // console.log(conPass);
   // console.log(user);
 
   return (
     <>
+      {/* <!-- ======= Breadcrumbs ======= --> */}
+      <section id="breadcrumbs" className="breadcrumbs">
+        <div className="container">
+
+          <div className="d-flex justify-content-between align-items-center">
+            <h2>Registration</h2>
+            <ol>
+              <li><Link to="/">Home</Link></li>
+              <li>Registration</li>
+            </ol>
+          </div>
+
+        </div>
+      </section>
+
+
+      {/* ================== Courses ======================= */}
+
       <section id="contact" className="contact d-flex justify-content-center">
         <div className="w-50">
           <div className="row mt-5 justify-content-center" data-aos="fade-up">
@@ -95,14 +134,14 @@ const Registration = () => {
 
             {/* ==========alert Para============== */}
 
-            {
+            {/* {
               isRegister
               &&
               <div className="alert alert-success alert-dismissible fade show" role="alert">
                 <strong>Success! </strong>
                 your Registration Was successfully, please login
               </div>
-            }
+            } */}
 
             {
               isExist
@@ -119,19 +158,38 @@ const Registration = () => {
               <form role="form" className="php-email-form">
 
                 <div className="form-group">
+                  <label htmlFor="name">Full Name</label>
+                  <input type="text" className="form-control" onChange={handleChange} name="name" value={formValue.name} placeholder="Your Name" data-rule="email" />
+                  <span className='text-danger'>{formError.name}</span>
+                </div>
+
+                <div className="form-group">
                   <label htmlFor="email">Email Address</label>
-                  <input type="email" className="form-control" onChange={handleChange} name="email" value={formValue.email} id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <input type="email" className="form-control" onChange={handleChange} name="email" value={formValue.email} placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                   <span className='text-danger'>{formError.email}</span>
                 </div>
 
                 <div className="form-group">
+                  <label htmlFor="phone">Phone Number</label>
+                  <input type="text" className="form-control" onChange={handleChange} name="phone" value={formValue.phone} placeholder="Your Phone Number" maxLength={10} data-rule="email" />
+                  <span className='text-danger'>{formError.phone}</span>
+                </div>
+
+                <div className="form-group">
                   <label htmlFor="password">Password</label>
-                  <input type="password" onChange={handleChange} name="password" value={formValue.password} className="form-control" id="name" placeholder="Your Password" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <input type="password" onChange={handleChange} name="password" value={formValue.password} className="form-control" placeholder="Your Password" data-rule="minlen:4" />
                   <span className='text-danger'>{formError.password}</span>
                 </div>
 
+                <div className="form-group">
+                  <label htmlFor="conpass">Confirm Password</label>
+                  <input type="password" onChange={(e) => setConPass(e.target.value)} name="conpass" value={conPass} className="form-control" placeholder="Confirm Password" data-rule="minlen:4" />
+                  <span className='text-danger'>{formError.conpass}</span>
+                </div>
+
+
                 <div className="text-center">
-                  <button className='btn btn-success' onClick={handleClick}>Register</button>
+                  <button className='btn btn-primary' onClick={handleClick}>Register</button>
                 </div>
               </form>
             </div>
@@ -139,6 +197,11 @@ const Registration = () => {
           </div>
         </div>
       </section>
+
+      {/* ============== Modal Part ================= */}
+
+      <RegistrationModal open={isRegister} setOpen={setIsRegister}/>
+      <ExistModal open={isExist} setOpen={setIsExist}/>
 
     </ >
   )

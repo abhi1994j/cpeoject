@@ -1,9 +1,17 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React, { useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
+import { getLoginData } from '../../Reducers/AuthRed'
 
 function Navbar() {
-    const { token } = useSelector(state => state.auth);
+    const { userName, token } = useSelector(state => state.auth);
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(getLoginData())
+    }, []);
+
+    // console.log(userName.split(' ')[0].toUpperCase());
 
     return (
         <>
@@ -11,9 +19,11 @@ function Navbar() {
 
                 <div className="container d-flex align-items-center">
 
-                    <h1 className="logo mr-auto"><Link to={'/'}><span>JIS</span>Group</Link></h1>
+                    {/* <h1 className="logo mr-auto"><Link to={'/'}><span>JIS</span>Group</Link></h1> */}
+                    <h1 className="logo mr-auto"><Link to={'/'}> <img className='w-100' style={{height:'35px'}} src="assets/img/logo/jis-logo.jpg" alt="" /> </Link></h1>
 
                     {/* -----------Navbar---------------- */}
+
                     <button type="button" className="mobile-nav-toggle d-lg-none"><i className="icofont-navigation-menu"></i></button>
 
                     <nav className="nav-menu d-none d-lg-block">
@@ -25,12 +35,24 @@ function Navbar() {
                             <li><Link to="/cources">Cources</Link></li>
                             <li><Link to="/blog">Blog</Link></li>
                             <li><Link to="/contact">Contact</Link></li>
-                            <li><Link to="/login">LogIn</Link></li>
-                            {!token
+                            {
+                            !token
                                 ?
-                                <li><Link to="/registration">Register</Link></li>
+                                <>
+                                    <li><Link to="/login">LogIn</Link></li>
+                                    <li><Link to="/registration">Register</Link></li>
+                                </>
                                 :
-                                <li><Link to="/logout">Logout</Link></li>
+                                <li>
+                                    <Link className="dropdown-toggle " data-toggle="dropdown">
+                                        <i className="icofont-user"> </i>
+                                        {userName.split(' ')[0].toUpperCase()}
+                                    </Link>
+                                    <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        
+                                        <Link className='pl-3' to="/logout"> <i className="fa-solid fa-power-off"> </i> Logout </Link>
+                                    </div>
+                                </li>
                             }
                         </ul>
                     </nav>

@@ -3,7 +3,8 @@ import axios from "axios";
 
 const initialState = {
     user: [],
-    token: false
+    token: false,
+    userName:''
 }
 
 export const getLoginData = createAsyncThunk('authentication/login', async () => {
@@ -17,6 +18,9 @@ const authSlice = createSlice({
     reducers: {
         setToken(state, {payload}) {
             state.token = payload;
+        },
+        setUserName(state,{payload}){
+            state.userName=payload;
         }
     },
     extraReducers: {
@@ -26,5 +30,5 @@ const authSlice = createSlice({
     }
 })
 
-export const { setToken } = authSlice.actions;
+export const { setToken,setUserName } = authSlice.actions;
 export const authRed = authSlice.reducer;
