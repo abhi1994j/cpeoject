@@ -55,7 +55,8 @@
       "features": "Academic Excellence",
       "features1": "Integrity",
       "features2": "Honesty",
-      "features3": "Creativity"
+      "features3": "Creativity",
+      "features4": "Super"
     }
   ],
   "contactData": [
@@ -79,6 +80,13 @@
       "subject": "history",
       "message": "bcbngnmjmjgjbh jm bghjb",
       "id": 3
+    },
+    {
+      "name": "Abhishek",
+      "email": "abhibaban4@gmail.com",
+      "subject": "history",
+      "message": "deefe",
+      "id": 4
     }
   ],
   "services": [
@@ -138,7 +146,7 @@
       "company": "Flipkart",
       "package": "12Lpa",
       "comments": "best faculty in the world",
-      "image":"assets/img/placement/abhishek.PNG"
+      "image": "assets/img/placement/abhishek.PNG"
     },
     {
       "id": 2,
@@ -146,7 +154,7 @@
       "company": "Amazon",
       "package": "20Lpa",
       "comments": "best campus fesility i have ever seen",
-      "image":"assets/img/placement/sauvik.PNG"
+      "image": "assets/img/placement/sauvik.PNG"
     },
     {
       "id": 3,
@@ -154,7 +162,7 @@
       "company": "Tesla",
       "package": "18Lpa",
       "comments": "professors are so helpful",
-      "image":"assets/img/placement/susavan.PNG"
+      "image": "assets/img/placement/susavan.PNG"
     },
     {
       "id": 4,
@@ -162,7 +170,7 @@
       "company": "Google",
       "package": "30Lpa",
       "comments": "best in india",
-      "image":"assets/img/placement/pallab.PNG"
+      "image": "assets/img/placement/pallab.PNG"
     }
   ],
   "clients": [
@@ -220,40 +228,40 @@
       "image": "assets/img/team/hande.jpg",
       "name": "Hande Ercel",
       "position": "Chief Executive Officer",
-      "twitter":"https://twitter.com/handeercel",
-      "facebook":"https://www.facebook.com/HandeErcelcomtr/",
-      "instagram":"https://www.instagram.com/handemiyy/",
-      "linkedin":"https://tr.linkedin.com/in/hande-er%C3%A7el-0b6373214/en?trk=people-guest_people_search-card"
+      "twitter": "https://twitter.com/handeercel",
+      "facebook": "https://www.facebook.com/HandeErcelcomtr/",
+      "instagram": "https://www.instagram.com/handemiyy/",
+      "linkedin": "https://tr.linkedin.com/in/hande-er%C3%A7el-0b6373214/en?trk=people-guest_people_search-card"
     },
     {
       "id": 2,
       "image": "assets/img/team/team-22.jpg",
       "name": "Allu Arjun",
       "position": "Full Stack Devoloper",
-      "twitter":"https://twitter.com/alluarjun?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-      "facebook":"https://www.facebook.com/AlluArjun/",
-      "instagram":"https://www.instagram.com/alluarjunonline/?hl=en",
-      "linkedin":"https://in.linkedin.com/in/allu-arjun-a836b7116"
+      "twitter": "https://twitter.com/alluarjun?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      "facebook": "https://www.facebook.com/AlluArjun/",
+      "instagram": "https://www.instagram.com/alluarjunonline/?hl=en",
+      "linkedin": "https://in.linkedin.com/in/allu-arjun-a836b7116"
     },
     {
       "id": 3,
       "image": "assets/img/team/team-33.jpg",
       "name": "Prabhas Raju",
       "position": "Product Manager",
-      "twitter":"https://twitter.com/prabhasraju",
-      "facebook":"https://www.facebook.com/ActorPrabhas/",
-      "instagram":"https://www.instagram.com/actorprabhas/",
-      "linkedin":"https://in.linkedin.com/in/actor-prabhas-60241541"
+      "twitter": "https://twitter.com/prabhasraju",
+      "facebook": "https://www.facebook.com/ActorPrabhas/",
+      "instagram": "https://www.instagram.com/actorprabhas/",
+      "linkedin": "https://in.linkedin.com/in/actor-prabhas-60241541"
     },
     {
       "id": 4,
       "image": "assets/img/team/team-44.jpg",
       "name": "Rasmika Mandana",
       "position": "Accountant",
-      "twitter":"https://twitter.com/iamRashmika?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
-      "facebook":"https://www.facebook.com/RashmikaMandanna/",
-      "instagram":"https://www.instagram.com/rashmika_mandanna/?hl=en",
-      "linkedin":"https://ae.linkedin.com/in/rashmika-mandanna-190085212?trk=people-guest_people_search-card"
+      "twitter": "https://twitter.com/iamRashmika?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor",
+      "facebook": "https://www.facebook.com/RashmikaMandanna/",
+      "instagram": "https://www.instagram.com/rashmika_mandanna/?hl=en",
+      "linkedin": "https://ae.linkedin.com/in/rashmika-mandanna-190085212?trk=people-guest_people_search-card"
     }
   ],
   "features": [
@@ -471,6 +479,14 @@
       "phone": "7825124578",
       "qualification": "afvzzfvzv",
       "id": 11
+    },
+    {
+      "courceName": "Javascript",
+      "name": "Raju kayal",
+      "email": "raju@gmail.com",
+      "phone": "9933935760",
+      "qualification": "hs",
+      "id": 12
     }
   ],
   "courseQuestions": [

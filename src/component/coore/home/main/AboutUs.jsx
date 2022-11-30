@@ -48,6 +48,7 @@ function AboutUs() {
                       <li><i className="ri-check-double-line"></i>{item.features1}</li>
                       <li><i className="ri-check-double-line"></i>{item.features2}</li>
                       <li><i className="ri-check-double-line"></i>{item.features3}</li>
+                      <li><i className="ri-check-double-line"></i>{item.features4}</li>
                     </ul>
                   </div>
                 </div>
