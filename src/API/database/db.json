@@ -73,27 +73,6 @@
       "subject": "history",
       "message": "sexy boy",
       "id": 2
-    },
-    {
-      "name": "Abhishek",
-      "email": "gadot@gal23gmail.com",
-      "subject": "history",
-      "message": "bcbngnmjmjgjbh jm bghjb",
-      "id": 3
-    },
-    {
-      "name": "Abhishek",
-      "email": "abhibaban4@gmail.com",
-      "subject": "history",
-      "message": "deefe",
-      "id": 4
-    },
-    {
-      "name": "Abhishek",
-      "email": "abhibaban4@gmail.com",
-      "subject": "history",
-      "message": "ngnnnvgnjmj",
-      "id": 5
     }
   ],
   "services": [
@@ -494,6 +473,22 @@
       "phone": "9933935760",
       "qualification": "hs",
       "id": 12
+    },
+    {
+      "courceName": "Javascript",
+      "name": "Abhishek",
+      "email": "abhibaban4@gmail.com",
+      "phone": "8910374010",
+      "qualification": "bsc",
+      "id": 13
+    },
+    {
+      "courceName": "Javascript",
+      "name": "Abhishek",
+      "email": "abhibaban4@gmail.com",
+      "phone": "8910374010",
+      "qualification": "bsc",
+      "id": 14
     }
   ],
   "courseQuestions": [

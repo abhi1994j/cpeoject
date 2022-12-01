@@ -5,7 +5,7 @@ import { postApiData } from '../AxiosMethods/AxiosMethods'
 
 
 const ContactForm = () => {
-    const initialValue = { name: '', email: '', subject: '',}
+    const initialValue = { name: '', email: '', subject: '',message:''}
     const [formValue, setFormValue] = useState(initialValue);
     const [formError, setFormError] = useState({});
     const [isSubmit, setIsSubmit] = useState(false);
