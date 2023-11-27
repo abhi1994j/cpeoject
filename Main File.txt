@@ -1,0 +1,57 @@
+https://youtu.be/uwekHBt4KIs?si=FKWh07qg-6HHGqpz
+https://youtube.com/shorts/p6ohVNFSoH0?si=RncaDjPr-Sft3oiO
+https://youtu.be/wLk2xRzhbjk?si=Ougkw9YJJ8kifG24
+https://youtube.com/shorts/HmEESNG59mQ?si=Cj6aID0QB7Qwlsn8
+https://youtu.be/Q1PYQPK9TaM?si=G80pS2jieV60yQkq
+
+https://youtu.be/HeNVPF_fRXI?si=0t0rrjL7w6O7lttc
+
+https://youtu.be/CYKDtVZr_Jw?si=QFU3be46su_oMHNR
+https://youtu.be/2C5xZzMcp9Q
+https://youtu.be/03OZsmDV56k
+https://youtu.be/RIhyi1rTopI
+https://youtu.be/jw_mnwo9Nag
+https://youtube.com/shorts/0alS0QEVm6k?feature=share
+https://youtu.be/qCTm3VFKZOs
+https://youtu.be/Lr2Xur5I-NU
+https://youtube.com/shorts/5JsHXtF2F5U?feature=share
+https://youtube.com/shorts/vKWv3rokEJ4?feature=share
+https://youtube.com/shorts/pHhpXrIOwsY?feature=share
+https://youtu.be/9g2i3aTK4SE
+https://youtu.be/Xvukp6FpUVU
+https://youtu.be/GXo2vv0oxB4
+https://youtu.be/XQl5oFeNawc
+https://youtube.com/shorts/LA-Kq-Vw47Q?feature=share
+https://youtube.com/shorts/DP92hTN6eCo?feature=share
+https://youtube.com/shorts/EUa7RxTVTDk?feature=share
+https://youtu.be/rSyGhONdslA?si=E1V6uMJ1ufTiPxFN
+https://youtube.com/shorts/PXhexkrHq1c?si=gSEdYNtUqe5sXOaz
+https://youtube.com/shorts/lZJxMALDFlk?si=qCal9PcP8-w2JZ7h
+https://youtu.be/ESAObLEuHQg?si=Tp1vpDZ880CNTaul
+
+It's weird that the greatest moments of clarity occur during moments of such confusion and stress
+
+HTML
+CSS
+JAVASCRIPT
+BOOTSTRAP
+ROUTER
+REDUX
+SQL
+JQUERY
+REACT BOOTSTRAP
+MATERIAL UI
+C
+GIT
+SASS
+AXIOS
+HTTP METHODS
+
+
+
+
+
+
+
+
+SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''))
